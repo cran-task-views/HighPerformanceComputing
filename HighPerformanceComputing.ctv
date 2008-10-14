@@ -1,0 +1,82 @@
+<CRANTaskView>
+
+   <name>HighPerformanceComputing</name>
+   <topic>High Performance and Parallel Computing</topic>
+   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
+   <version>2008-10-13</version>
+
+  <info>
+    <p>
+    This CRAN Task View contains a list of packages, grouped by topic, that
+    are useful for high-performance computing with R.  In this context we define
+    'high-performance computing' as just about anything related to pushing R
+    a littler further: parallel computing, profiling, using compiled code,
+    working with large objects, being focused on parallel computing and
+    related topics.
+    </p>
+
+    <p>
+    Please send suggestions for additions and extensions for this task
+    view to the 
+    <a href="mailto:Dirk.Eddelbuettel@R-project.org">task view maintainer</a>.
+    </p>
+
+
+    <p>
+    <strong>Parallel computing</strong>
+    <ul>
+      <li>Several packages provides the communications layer required for
+          parallel computing: Rmpi, rpvm, socket-based, ...
+      </li>
+      <li>Higher-end package permit job distribution and communication, often
+          by building on top of other packages: snow, snowfall, nws, ...
+      </li>
+      <li>Condor, Sun GridEngine, Slurm, ...
+      </li>
+      <li>Parallel RNGs: sprng, lecuyer, ...
+      </li>
+      <li>Multi-threading: Luke's ROMP
+      </li>
+    </ul>
+
+    <p>
+    <strong>Large memory and out-of-memory data</strong>
+    <ul>
+      <li>ff, ...
+      </li>
+      <li>bigmemory, ...
+      </li>
+    </ul>
+
+    <p>
+    <strong>Easier interfaces for Compiled code</strong>
+    <ul>
+      <li>C++ interfaces: RCpp, rcppbind, Whit's
+      </li>
+      <li>Fortran interfaces
+      </li>
+      <li>
+      </li>Debugging tools
+    </ul>
+
+    <p>
+    <strong>Profiling tools</strong>
+    <ul>
+      <li>profr (Hatley)
+      </li>
+    </ul>
+
+  </info>
+
+  <packagelist>
+    <pkg priority="core">Rmpi</pkg>
+    <pkg priority="core">snow</pkg>
+    <pkg>rsprng</pkg>
+  </packagelist>
+
+  <links>
+    <a href="http://www.stat.uiowa.edu/~luke/classes/295-hpc/">Notes by Luke Tierney for HPC class at U Iowa</a>
+  </links>
+
+</CRANTaskView>
+
