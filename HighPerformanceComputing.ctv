@@ -38,6 +38,7 @@
       <li>Multi-threading: Luke's ROMP
       </li>
     </ul>
+    </p>
 
     <p>
     <strong>Large memory and out-of-memory data</strong>
@@ -47,6 +48,7 @@
       <li>bigmemory, ...
       </li>
     </ul>
+    </p>
 
     <p>
     <strong>Easier interfaces for Compiled code</strong>
@@ -58,6 +60,7 @@
       <li>
       </li>Debugging tools
     </ul>
+    </p>
 
     <p>
     <strong>Profiling tools</strong>
@@ -65,6 +68,7 @@
       <li>profr (Hatley)
       </li>
     </ul>
+    </p>
 
   </info>
 
