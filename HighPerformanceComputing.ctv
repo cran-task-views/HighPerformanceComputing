@@ -87,9 +87,11 @@
         available.  Similar functionality is expected to become integrated
     	into R 'eventually'.
       </li>
-      <li>The romp package was presented at the useR! 2008 conference and
-        offers another interface to Open MP using Fortran; this code is
-        still pre-alpha.
+      <li>The romp package was presented at useR! 2008
+        (<a href="http://www.statistik.tu-dortmund.de/useR-2008/slides/Jamitzky.pdf">slides</a>)
+        and offers another interface to Open MP using Fortran. The code is still
+	pre-alpha and available from the Google Code project <googlecode>romp</googlecode>.
+	An R-Forge project <forge>romp</forge> was initiated but there is no package, yet.
       </li>
       <li>The <pkg>fork</pkg> package provides R-equivalents to low-level Unix system functions
         like fork, signal, wait, kill and exit in order to spawn
@@ -248,7 +250,7 @@
     <a href="http://www.stat.uiowa.edu/~luke/classes/295-hpc/">HPC computing notes by Luke Tierney for HPC class at University of Iowa</a> 
     <a href="https://stat.ethz.ch/pipermail/R-SIG-HPC/">Mailing List: R Special Interest Group High Performance Computing</a>
     <a href="http://www.stat.uiowa.edu/~luke/R/experimental/">Luke Tierney's code directory for pnmath and pnmath0</a>
-    <a href="http://code.google.com/p/romp/">Google Code: romp (OpenMP Binding for R)</a>
+    <googlecode>romp</googlecode>
     <a href="http://biocep-distrib.r-forge.r-project.org/">R-Forge: Biocep-R (Statistical Tools for the Cloud Computing Age)</a>
     <a href="https://computing.llnl.gov/linux/slurm/">Slurm project at Lawrence Livermore National Laboratory</a>
     <a href="http://www.cs.wisc.edu/condor/">Condor project at University of Wisconsin-Madison</a>
