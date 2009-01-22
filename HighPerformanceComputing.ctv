@@ -8,8 +8,8 @@
 
   <info>
     <p>
-      This CRAN Task View contains a list of packages, grouped by topic, that
-      are useful for high-performance computing with R.  In this context, we
+      This CRAN task view contains a list of packages, grouped by topic, that
+      are useful for high-performance computing (HPC) with R.  In this context, we
       are defining 'high-performance computing' rather loosely as just about anything
       related to pushing R a littler further: using compiled code,
       parallel computing (in both explicit and implicit modes), working with
@@ -48,7 +48,7 @@
       <li>An alternative is provided by the <pkg>nws</pkg> (NetWorkSpaces)
         packages from REvolution Computing.  It is the successor to the
 	earlier LindaSpaces approach to parallel computing, and is
-	implemented on top the Twisted networking toolkit for Python.
+	implemented on top of the Twisted networking toolkit for Python.
       </li>
       <li>The <pkg>snow</pkg> (Simple Network of Workstations) package by
         Tierney et al can use PVM, MPI, NWS as well as direct networking
@@ -87,7 +87,7 @@
         available.  Similar functionality is expected to become integrated
     	into R 'eventually'.
       </li>
-      <li>The ROMP package was presented at the UseR 2008 conference and
+      <li>The romp package was presented at the useR! 2008 conference and
         offers another interface to Open MP using Fortran; this code is
         still pre-alpha.
       </li>
@@ -110,13 +110,13 @@
     </p>
 
     <p>
-    <strong>Parallel computing: Grid Computing</strong>
+    <strong>Parallel computing: Grid computing</strong>
     <ul>	     
-      <li>The <pkg>gridR</pkg> package by Wegener et al can be used in a Grid Computing
+      <li>The <pkg>gridR</pkg> package by Wegener et al can be used in a grid computing
         environment via a web service, via ssh or via Condor or Globus.
       </li>
-      <li>The multiR package was presented at UseR 2008 but has not been
-        released. It may offer a snow-style framework on a Grid Computing platform.
+      <li>The multiR package was presented at useR! 2008 but has not been
+        released. It may offer a snow-style framework on a grid computing platform.
       </li>
       <li>The Biocep-R project offers a Java-based framework for local, Grid,
         or Cloud computing. It is under active development.
@@ -134,7 +134,7 @@
     </p>
 
     <p>
-    <strong>Parallel computing: Resource Managers and Batch Schedulers</strong>
+    <strong>Parallel computing: Resource managers and batch schedulers</strong>
     <ul>	     
       <li>
         Job-scheduling toolkits permit management of
@@ -144,7 +144,7 @@
         MPI. 
       </li>
       <li>
-        The Condor toolkit from the University of Wisconsin / Madison
+        The Condor toolkit from the University of Wisconsin-Madison
         has been used with R. 
       </li>
       <li>
@@ -175,7 +175,7 @@
         as matrices in memory and uses external pointer objects to refer to
         them.  This permits transparent access from R without bumping
         against R's internal memory limits.  Several R processes on the
-        same computer can also shared big memory objects/
+        same computer can also shared big memory objects.
       </li>
       <li>A large number of database packages, and database-alike packages
         (such as <pkg>sqldf</pkg>) are also of potential interest but not (yet?)
@@ -245,24 +245,16 @@
   </packagelist>
 
   <links>
-    <a href="http://www.stat.uiowa.edu/~luke/classes/295-hpc/">HPC computing notes by Luke
-      Tierney for HPC class at U Iowa</a> 
-    <a href="https://stat.ethz.ch/pipermail/r-sig-hpc/">Archives of R-SIG-HPC
-      mailing list</a>
-    <a href="http://www.stat.uiowa.edu/~luke/R/experimental/">Luke Tierney's
-      code directory for pnmath and pnmath0</a>
-    <a href="http://code.google.com/p/romp/">The ROMP code repository at
-      Google Code</a>
-    <a href="http://biocep-distrib.r-forge.r-project.org/">Biocep-R page at R-Forge</a>
-    <a href="https://computing.llnl.gov/linux/slurm/">Slurm page at LLNL</a>
-    <a href="http://www.cs.wisc.edu/condor/">CONDOR project at U Wisconsin /
-      Madison</a>
-    <a href="http://en.wikipedia.org/wiki/Message_Passing_Interface">MPI
-      page at Wikipedia</a>
-    <a href="http://en.wikipedia.org/wiki/Parallel_Virtual_Machine">PVM
-      page at Wikipedia</a>
-    <a href="http://dirk.eddelbuettel.com/papers/bocDec2008introHPCwithR.pdf">Slides from Introduction
-      to High-Performance Computing with R tutorial / workshop presentation</a> 
+    <a href="http://www.stat.uiowa.edu/~luke/classes/295-hpc/">HPC computing notes by Luke Tierney for HPC class at University of Iowa</a> 
+    <a href="https://stat.ethz.ch/pipermail/R-SIG-HPC/">Mailing List: R Special Interest Group High Performance Computing</a>
+    <a href="http://www.stat.uiowa.edu/~luke/R/experimental/">Luke Tierney's code directory for pnmath and pnmath0</a>
+    <a href="http://code.google.com/p/romp/">Google Code: romp (OpenMP Binding for R)</a>
+    <a href="http://biocep-distrib.r-forge.r-project.org/">R-Forge: Biocep-R (Statistical Tools for the Cloud Computing Age)</a>
+    <a href="https://computing.llnl.gov/linux/slurm/">Slurm project at Lawrence Livermore National Laboratory</a>
+    <a href="http://www.cs.wisc.edu/condor/">Condor project at University of Wisconsin-Madison</a>
+    <a href="http://en.wikipedia.org/wiki/Message_Passing_Interface">Wikipedia: Message Passing Interface (MPI)</a>
+    <a href="http://en.wikipedia.org/wiki/Parallel_Virtual_Machine">Wikipedia: Parallel Virtual Machine (PVM)</a>
+    <a href="http://dirk.eddelbuettel.com/papers/bocDec2008introHPCwithR.pdf">Slides from Introduction to High-Performance Computing with R tutorial / workshop presentation</a> 
   </links>
 
 </CRANTaskView>
