@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High Performance and Parallel Computing</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2009-01-20</version>
+   <version>2009-01-22</version>
 
   <info>
     <p>
@@ -39,7 +39,7 @@
       <li>In recent years, the
         alternative MPI (Message Passing Interface) standard has become the
         de facto standard in parallel computing. It is supported in R via
-  	the <pkg>Rmpi</pkg> by Yu. <pkg>Rmpi</pkg> is mature yet actively
+  	the <pkg>Rmpi</pkg> by Yu. <pkg>Rmpi</pkg> package is mature yet actively
 	maintained and offers access to numerous functions from the MPI
 	API, as well as a number of R-specific extensions.  <pkg>Rmpi</pkg>
         can be used with the LAM, MPICH / MPICH2, Open MPI, and Deino MPI 
@@ -87,25 +87,24 @@
         available.  Similar functionality is expected to become integrated
     	into R 'eventually'.
       </li>
-      <li>The romp package was presented at useR! 2008
+      <li>The romp package by Jamitzky was presented at useR! 2008
         (<a href="http://www.statistik.tu-dortmund.de/useR-2008/slides/Jamitzky.pdf">slides</a>)
         and offers another interface to Open MP using Fortran. The code is still
 	pre-alpha and available from the Google Code project <googlecode>romp</googlecode>.
 	An R-Forge project <forge>romp</forge> was initiated but there is no package, yet.
       </li>
-      <li>The <pkg>fork</pkg> package provides R-equivalents to low-level Unix system functions
+      <li>The <pkg>fork</pkg> package by Warnes provides R-equivalents to low-level Unix system functions
         like fork, signal, wait, kill and exit in order to spawn
         sub-processes for parallel execution. 
       </li>
-      <li>The <pkg>multicore</pkg> package provides a way of running parallel
+      <li>The <pkg>multicore</pkg> package by Urbanek provides a way of running parallel
         computations in R on machines with multiple cores or CPUs. 
       </li>
-      <li>The R/parallel package offers a C++-based master-slave dispatch
-        mechanism for parallel execution.
+      <li>The R/parallel package by Vera, Jansen and Suppi offers a C++-based master-slave dispatch
+        mechanism for parallel execution (<a href="http://www.rparallel.org/">link</a>)
       </li>
-      <li>The <pkg>RScaLAPACK</pkg> provides an interface to the ScaLAPACK
-        libraries which can replace the standard BLAS libraries
-        and offer parallel execution of the same BLAS functions. 
+      <li>The <pkg>RScaLAPACK</pkg> package by Samatova et al provides an interface to the ScaLAPACK
+        libraries which can replace the standard BLAS libraries and offer parallel execution of the same BLAS functions. 
 	<!-- This may however require a recompilation of the R engine itself. -->
       </li>
     </ul>
@@ -117,10 +116,10 @@
       <li>The <pkg>gridR</pkg> package by Wegener et al can be used in a grid computing
         environment via a web service, via ssh or via Condor or Globus.
       </li>
-      <li>The multiR package was presented at useR! 2008 but has not been
-        released. It may offer a snow-style framework on a grid computing platform.
+      <li>The multiR package by Grose was presented at useR! 2008 
+	but has not been released. It may offer a snow-style framework on a grid computing platform.
       </li>
-      <li>The Biocep-R project offers a Java-based framework for local, Grid,
+      <li>The <forge>Biocep-Distrib</forge> project by Chine offers a Java-based framework for local, Grid,
         or Cloud computing. It is under active development.
       </li>
     </ul>
@@ -130,7 +129,8 @@
     <strong>Parallel computing: Random numbers</strong>
     <ul>	     
       <li>Random-number generators for parallel computing are available via
-        the <pkg>sprng</pkg> and <pkg>lecuyer</pkg> packages.
+        the <pkg>rsprng</pkg> package by Li, and the <pkg>rlecuyer</pkg>
+        package by Sevcikova and Rossini.
       </li>
     </ul>
     </p>
@@ -143,21 +143,19 @@
 	parallel computing resources and tasks.  The slurm (Simple Linux
         Utility for Resource Management) set of programs (written by a
         consortium led by Lawrence Livermore Labs) works well with
-        MPI. 
+        MPI. (<a href="https://computing.llnl.gov/linux/slurm/">link</a>)
       </li>
       <li>
         The Condor toolkit from the University of Wisconsin-Madison
-        has been used with R. 
+        has been used with R. (<a href="http://www.cs.wisc.edu/condor/">link</a>)
       </li>
       <li>
-        The <pkg>sfCluster</pkg> package can be used
-        with <pkg>snowfall</pkg>.  
+        The <pkg>sfCluster</pkg> package by Knaus can be used with <pkg>snowfall</pkg>.  
       </li>
       <li>
-        The <pkg>Rsge</pkg> package offers an interface to the Sun Grid
+        The <pkg>Rsge</pkg> package by Bode offers an interface to the Sun Grid
         Engine batch-queuing system.
       </li>
-      <!-- Finally, the by building on top of other packages: snow, snowfall, nws, ... peperr rparallel from www.rparallel.org -->
     </ul>
     </p>
 
@@ -165,22 +163,22 @@
     <p>
     <strong>Large memory and out-of-memory data</strong>
     <ul>
-      <li>The <pkg>biglm</pkg> package uses incremental computations to
+      <li>The <pkg>biglm</pkg> package by Lumley uses incremental computations to
         offers <code>lm()</code> and <code>glm()</code> functionality to 
         data sets stored outside of R's main memory.
       </li>
-      <li>The <pkg>ff</pkg> package offers file-based access to data sets
+      <li>The <pkg>ff</pkg> package by Adler et al offers file-based access to data sets
         that are too large to be loaded into memory, along with a number of
         higher-level functions.
       </li>
-      <li>The <pkg>bigmemory</pkg> packages permits storing large objects such
+      <li>The <pkg>bigmemory</pkg> package by Kane and Emerson permits storing large objects such
         as matrices in memory and uses external pointer objects to refer to
         them.  This permits transparent access from R without bumping
         against R's internal memory limits.  Several R processes on the
         same computer can also shared big memory objects.
       </li>
       <li>A large number of database packages, and database-alike packages
-        (such as <pkg>sqldf</pkg>) are also of potential interest but not (yet?)
+        (such as <pkg>sqldf</pkg> by Grothendieck) are also of potential interest but not (yet?)
         reviewed here.
       </li>
     </ul>
@@ -190,16 +188,16 @@
     <strong>Easier interfaces for Compiled code</strong>
     <ul>
       <li>
-	The <pkg>inline</pkg> eases adding code in C, C++ or Fortran to R. It
+	The <pkg>inline</pkg> package by Sklyar, Murdoch and Smith eases adding code in C, C++ or Fortran to R. It
 	takes care of the compilation, linking and loading of embeded code
 	segments that are stored as R strings.
       </li>
       <li>
-	The <pkg>Rcpp</pkg> package offers a number of C++ clases that makes
+	The <pkg>Rcpp</pkg> package by Eddelbuettel offers a number of C++ clases that makes
 	transferring R objects to C++ functions (and back) easier.  
       </li>
       <li>
-	The <pkg>rJava</pkg> package provides a low-level interface to Java
+	The <pkg>rJava</pkg> package by Urbanek provides a low-level interface to Java
 	similar to the <code>.Call()</code> interface for C and C++.
       </li>
       <!-- <li>Fortran interfaces -->
@@ -212,10 +210,10 @@
     <p>
     <strong>Profiling tools</strong>
     <ul>
-      <li>The <pkg>profr</pkg> package can visualize output from
+      <li>The <pkg>profr</pkg> package by Wickham can visualize output from
 	the <code>Rprof</code> interface for profiling.
       </li>
-      <li>The <pkg>proftools</pkg> package can be used to analyse profiling output.
+      <li>The <pkg>proftools</pkg> package by Tierney can be used to analyse profiling output.
       </li>
     </ul>
     </p>
@@ -236,13 +234,18 @@
     <pkg>profr</pkg>
     <pkg>proftools</pkg>
     <pkg>Rcpp</pkg>
+    <pkg>rJava</pkg>
+    <pkg>rlecuyer</pkg>
     <pkg priority="core">Rmpi</pkg>
     <pkg>rpvm</pkg>
+    <pkg>RScaLAPACK</pkg>
+    <pkg>Rsge</pkg>
+    <pkg>rsprng</pkg>
     <pkg>sfCluster</pkg>
     <pkg priority="core">snow</pkg>
     <pkg>snowfall</pkg>
     <pkg>snowFT</pkg>
-    <pkg>rsprng</pkg>
+    <pkg>sqldf</pkg>
     <pkg>taskPR</pkg>
   </packagelist>
 
@@ -251,7 +254,7 @@
     <a href="https://stat.ethz.ch/pipermail/R-SIG-HPC/">Mailing List: R Special Interest Group High Performance Computing</a>
     <a href="http://www.stat.uiowa.edu/~luke/R/experimental/">Luke Tierney's code directory for pnmath and pnmath0</a>
     <googlecode>romp</googlecode>
-    <a href="http://biocep-distrib.r-forge.r-project.org/">R-Forge: Biocep-R (Statistical Tools for the Cloud Computing Age)</a>
+    <forge>biocep-distrib</forge>
     <a href="https://computing.llnl.gov/linux/slurm/">Slurm project at Lawrence Livermore National Laboratory</a>
     <a href="http://www.cs.wisc.edu/condor/">Condor project at University of Wisconsin-Madison</a>
     <a href="http://en.wikipedia.org/wiki/Message_Passing_Interface">Wikipedia: Message Passing Interface (MPI)</a>
