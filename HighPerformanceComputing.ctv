@@ -25,8 +25,6 @@
       change. Please send suggestions for additions and extensions for this task
       view to the <a href="mailto:Dirk.Eddelbuettel@R-project.org">task view maintainer</a>.
     </p>
-
-
     <p>
       <strong>Parallel computing: Explicit parallelism</strong>
     <ul>	     
@@ -42,8 +40,9 @@
   	the <pkg>Rmpi</pkg> by Yu. <pkg>Rmpi</pkg> package is mature yet actively
 	maintained and offers access to numerous functions from the MPI
 	API, as well as a number of R-specific extensions.  <pkg>Rmpi</pkg>
-        can be used with the LAM, MPICH / MPICH2, Open MPI, and Deino MPI 
-        implementations.
+        can be used with the LAM/MPI, MPICH / MPICH2, Open MPI, and Deino MPI 
+        implementations. It should be noted that LAM/MPI is now in
+        maintenance mode, and new delopment is focussed on Open MPI.
       </li>
       <li>An alternative is provided by the <pkg>nws</pkg> (NetWorkSpaces)
         packages from REvolution Computing.  It is the successor to the
@@ -59,7 +58,7 @@
       </li>
       <li>The <pkg>snowfall</pkg> package by Knaus provides a more recent
 	alternative to <pkg>snow</pkg>. It is however not yet at the same level of
-	maturity, and supports only the LAM implementation of the MPI
+	maturity, and supports only the LAM/MPI implementation of the MPI
         standard.
       </li>
       <li>The <pkg>papply</pkg> package by Currie provided a subset of the
@@ -68,7 +67,7 @@
       <li>The <pkg>biopara</pkg> package by Lazar and Schoenfeld offers socket-based parallel
         execution with some support for load-balancing and fault-tolerance.
       </li>
-      <li>The <pkg>taskPR</pkg> package by Samatova et al builds on top of LAM MPI and offers 
+      <li>The <pkg>taskPR</pkg> package by Samatova et al builds on top of LAM/MPI and offers 
         parallel execution of tasks.
       </li>
     </ul>
@@ -77,7 +76,9 @@
     <p>
     <strong>Parallel computing: Implicit parallelism</strong>
     <ul>	     
-      <li>The pnmath package by Tierney uses the Open MP parallel
+      <li>The pnmath package by Tierney 
+	(<a href="http://www.stat.uiowa.edu/~luke/R/experimental/">link</a>)
+	uses the Open MP parallel
         processing directives of recent compilers (such gcc 4.2 or later) for implicit
         parallelism by replacing a number of internal R functions with
         replacements that can make use of multiple cores --- without
@@ -107,6 +108,10 @@
         libraries which can replace the standard BLAS libraries and offer parallel execution of the same BLAS functions. 
 	<!-- This may however require a recompilation of the R engine itself. -->
       </li>
+      <li>
+	The SPRINT package by Hill adds another parallel framework to R (<a href="http://forge.nesc.ac.uk/projects/sprint">link</a>).
+      </li>
+
     </ul>
     </p>
 
@@ -119,7 +124,7 @@
       <li>The multiR package by Grose was presented at useR! 2008 
 	but has not been released. It may offer a snow-style framework on a grid computing platform.
       </li>
-      <li>The <forge>Biocep-Distrib</forge> project by Chine offers a Java-based framework for local, Grid,
+      <li>The <forge>biocep-distrib</forge> project by Chine offers a Java-based framework for local, Grid,
         or Cloud computing. It is under active development.
       </li>
     </ul>
@@ -218,6 +223,12 @@
       </li>
     </ul>
     </p>
+
+    <!-- <p> -->
+    <!-- <strong>Acknowledgements</strong> -->
+    <!--   Suggestions and corrections by Markus Schmidberger and Martin Morgan -->
+    <!--   are gratefully acknowledged. -->
+    <!-- </p> -->
 
   </info>
 
