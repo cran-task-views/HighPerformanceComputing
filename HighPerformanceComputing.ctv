@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High Performance and Parallel Computing</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2009-01-22</version>
+   <version>2009-01-23</version>
 
   <info>
     <p>
@@ -150,7 +150,8 @@
         has been used with R. (<a href="http://www.cs.wisc.edu/condor/">link</a>)
       </li>
       <li>
-        The <pkg>sfCluster</pkg> package by Knaus can be used with <pkg>snowfall</pkg>.  
+        The sfCluster package by Knaus can be used with <pkg>snowfall</pkg>.
+	(<a href="http://www.imbi.uni-freiburg.de/parallel/">link</a>)  
       </li>
       <li>
         The <pkg>Rsge</pkg> package by Bode offers an interface to the Sun Grid
@@ -241,7 +242,6 @@
     <pkg>RScaLAPACK</pkg>
     <pkg>Rsge</pkg>
     <pkg>rsprng</pkg>
-    <pkg>sfCluster</pkg>
     <pkg priority="core">snow</pkg>
     <pkg>snowfall</pkg>
     <pkg>snowFT</pkg>
@@ -257,6 +257,7 @@
     <forge>biocep-distrib</forge>
     <a href="https://computing.llnl.gov/linux/slurm/">Slurm project at Lawrence Livermore National Laboratory</a>
     <a href="http://www.cs.wisc.edu/condor/">Condor project at University of Wisconsin-Madison</a>
+    <a href="http://www.imbi.uni-freiburg.de/parallel/">Parallel Computing in R with sfCluster/snowfall</a>
     <a href="http://en.wikipedia.org/wiki/Message_Passing_Interface">Wikipedia: Message Passing Interface (MPI)</a>
     <a href="http://en.wikipedia.org/wiki/Parallel_Virtual_Machine">Wikipedia: Parallel Virtual Machine (PVM)</a>
     <a href="http://dirk.eddelbuettel.com/papers/bocDec2008introHPCwithR.pdf">Slides from Introduction to High-Performance Computing with R tutorial / workshop presentation</a> 
