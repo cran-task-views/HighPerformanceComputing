@@ -113,7 +113,7 @@
     <p>
     <strong>Parallel computing: Grid computing</strong>
     <ul>	     
-      <li>The <pkg>gridR</pkg> package by Wegener et al can be used in a grid computing
+      <li>The <pkg>GridR</pkg> package by Wegener et al can be used in a grid computing
         environment via a web service, via ssh or via Condor or Globus.
       </li>
       <li>The multiR package by Grose was presented at useR! 2008 
@@ -227,7 +227,7 @@
     <pkg>biopara</pkg>
     <pkg>ff</pkg>
     <pkg>fork</pkg>
-    <pkg>gridR</pkg>
+    <pkg>GridR</pkg>
     <pkg>inline</pkg>
     <pkg>multicore</pkg>
     <pkg>nws</pkg>
