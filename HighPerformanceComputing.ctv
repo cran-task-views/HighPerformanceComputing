@@ -26,10 +26,15 @@
       view to the <a href="mailto:Dirk.Eddelbuettel@R-project.org">task view maintainer</a>.
     </p>
     <p>
+      Suggestions and corrections by Markus Schmidberger, Martin Morgan and Max Kuhn 
+      are gratefully acknowledged.
+    </p>
+
+    <p>
       <strong>Parallel computing: Explicit parallelism</strong>
     <ul>	     
       <li>Several packages provide the communications layer required for parallel
-        computing. The first packages in this area was
+	computing. The first package in this area was
 	<pkg>rpvm</pkg> by Li and Rossini which uses the PVM (Parallel
         Virtual Machine) standard and libraries. <pkg>rpvm</pkg> is no
         longer actively maintained.
@@ -223,12 +228,6 @@
       </li>
     </ul>
     </p>
-
-    <!-- <p> -->
-    <!-- <strong>Acknowledgements</strong> -->
-    <!--   Suggestions and corrections by Markus Schmidberger and Martin Morgan -->
-    <!--   are gratefully acknowledged. -->
-    <!-- </p> -->
 
   </info>
 
