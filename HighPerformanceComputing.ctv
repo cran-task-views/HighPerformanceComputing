@@ -26,8 +26,8 @@
       view to the <a href="mailto:Dirk.Eddelbuettel@R-project.org">task view maintainer</a>.
     </p>
     <p>
-      Suggestions and corrections by Markus Schmidberger, Martin Morgan and Max Kuhn 
-      are gratefully acknowledged.
+      Suggestions and corrections by Achim Zeileis, Markus Schmidberger, Martin Morgan, Max
+      Kuhn and Tomas Radivoyevitch are gratefully acknowledged.
     </p>
 
     <p>
@@ -47,7 +47,7 @@
 	API, as well as a number of R-specific extensions.  <pkg>Rmpi</pkg>
         can be used with the LAM/MPI, MPICH / MPICH2, Open MPI, and Deino MPI 
         implementations. It should be noted that LAM/MPI is now in
-        maintenance mode, and new delopment is focussed on Open MPI.
+        maintenance mode, and new development is focussed on Open MPI.
       </li>
       <li>An alternative is provided by the <pkg>nws</pkg> (NetWorkSpaces)
         packages from REvolution Computing.  It is the successor to the
