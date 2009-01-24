@@ -167,6 +167,10 @@
         The <pkg>Rsge</pkg> package by Bode offers an interface to the Sun Grid
         Engine batch-queuing system.
       </li>
+      <li>
+        The <pkg>Rlsf</pkg> package by Smith et al offers an interface to the
+        LSF cluster/grid system.
+      </li>
     </ul>
     </p>
 
@@ -219,6 +223,8 @@
 	The <pkg>BARD</pkg> package by Altman for better automated redistring,
 	the <pkg>GAMBoost</pkg> package by Binder for <code>glm</code>
 	and <code>gam</code> model fitting via boosting using b-splines,
+	the <pkg>Geneland</pkg> package by Estoup, Guillot and Santos for
+	structure detection from multilocus genetic data,
 	the <pkg>Matching</pkg> package by Sekhon for multivariate and propensity
 	score matching,
 	the <pkg>STAR</pkg> package by Pouzat for spike train analysis,
@@ -227,6 +233,8 @@
 	the <pkg>latentnet</pkg> package by Krivitsky and Handcock for latent
 	position and cluster models,
 	the <pkg>lga</pkg> package by Harrington for linear grouping analysis,
+	the <pkg>peperr</pkg> package by Porelius and Binder for parallised
+	estimation of prediction error,
 	the <pkg>orloca</pkg> package by Fernandez-Palacin and Munoz-Marquez
 	for operations research locational analysis,
 	and the <pkg>rgenoud</pkg> package by Mebane and Sekhon for genetic
@@ -307,6 +315,7 @@
     <pkg>ff</pkg>
     <pkg>fork</pkg>
     <pkg>GAMBoost</pkg>
+    <pkg>Geneland</pkg>
     <pkg>GridR</pkg>
     <pkg>inline</pkg>
     <pkg>latentnet</pkg>
@@ -319,6 +328,7 @@
     <pkg>nws</pkg>
     <pkg>orloca</pkg>
     <pkg>papply</pkg>
+    <pkg>peperr</pkg>
     <pkg>profr</pkg>
     <pkg>proftools</pkg>
     <pkg>pvclust</pkg>
@@ -326,6 +336,7 @@
     <pkg>rgenoud</pkg>
     <pkg>rJava</pkg>
     <pkg>rlecuyer</pkg>
+    <pkg>Rlsf</pkg>
     <pkg priority="core">Rmpi</pkg>
     <pkg>rpvm</pkg>
     <pkg>RScaLAPACK</pkg>
