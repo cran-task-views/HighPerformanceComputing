@@ -132,6 +132,10 @@
       <li>The <forge>biocep-distrib</forge> project by Chine offers a Java-based framework for local, Grid,
         or Cloud computing. It is under active development.
       </li>
+      <li>
+	The RHIPE package by Guha profides an interface between R and Hadoop
+	for a Map/Reduce programming framework. (<a href="http://www.stat.purdue.edu/~sguha/rhipe">link</a>)
+      </li>
     </ul>
     </p>
 
