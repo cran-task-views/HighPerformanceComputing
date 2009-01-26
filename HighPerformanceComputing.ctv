@@ -206,7 +206,7 @@
 	and <pkg>Rmpi</pkg> for parallelized text mining.
       </li>
       <li>
-	The <pkg>varselRF</pkg> package by Diaz-Uriarte can use <pkg>snow</pkg>
+	The <pkg>varSelRF</pkg> package by Diaz-Uriarte can use <pkg>snow</pkg>
 	and <pkg>Rmpi</pkg> for parallelized use of variable selection via
 	random forests; and the <pkg>ADaCGH</pkg> package by Diaz-Uriarte and Rueda
 	can use <pkg>Rmpi</pkg> and <pkg>papply</pkg> for parallelized
@@ -362,7 +362,7 @@
     <pkg>STAR</pkg>
     <pkg>taskPR</pkg>
     <pkg>tm</pkg>
-    <pkg>varselRF</pkg>
+    <pkg>varSelRF</pkg>
   </packagelist>
 
   <links>
