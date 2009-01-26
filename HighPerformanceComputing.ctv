@@ -27,7 +27,7 @@
     </p>
     <p>
       Suggestions and corrections by Achim Zeileis, Markus Schmidberger, Martin Morgan, Max
-      Kuhn and Tomas Radivoyevitch are gratefully acknowledged.
+      Kuhn, Tomas Radivoyevitch and Jochen Knaus are gratefully acknowledged.
     </p>
 
     <p>
@@ -62,9 +62,8 @@
         actively maintained.
       </li>
       <li>The <pkg>snowfall</pkg> package by Knaus provides a more recent
-	alternative to <pkg>snow</pkg>. It is however not yet at the same level of
-	maturity, and supports only the LAM/MPI implementation of the MPI
-        standard.
+	alternative to <pkg>snow</pkg>. Functions can be used in sequential or
+	parallel mode.
       </li>
       <li>The <pkg>papply</pkg> package by Currie provided a subset of the
         <pkg>Rmpi</pkg> functionality, but is no longer actively maintained either.
@@ -165,7 +164,8 @@
       </li>
       <li>
         The sfCluster package by Knaus can be used with <pkg>snowfall</pkg>.
-	(<a href="http://www.imbi.uni-freiburg.de/parallel/">link</a>)  
+	(<a href="http://www.imbi.uni-freiburg.de/parallel/">link</a>) but is
+	currently limited to LAM/MPI. 
       </li>
       <li>
         The <pkg>Rsge</pkg> package by Bode offers an interface to the Sun Grid
