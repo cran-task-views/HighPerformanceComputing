@@ -27,7 +27,7 @@
     </p>
     <p>
       Suggestions and corrections by Achim Zeileis, Markus Schmidberger, Martin Morgan, Max
-      Kuhn, Tomas Radivoyevitch and Jochen Knaus are gratefully acknowledged.
+      Kuhn, Tomas Radivoyevitch, Jochen Knaus, and Tobias Verbeke are gratefully acknowledged.
     </p>
 
     <p>
@@ -159,8 +159,10 @@
         MPI. (<a href="https://computing.llnl.gov/linux/slurm/">link</a>)
       </li>
       <li>
-        The Condor toolkit from the University of Wisconsin-Madison
-        has been used with R. (<a href="http://www.cs.wisc.edu/condor/">link</a>)
+        The Condor toolkit (<a href="http://www.cs.wisc.edu/condor/">link</a>) from 
+	the University of Wisconsin-Madison has been used with R as described
+	in this <a href="http://www.r-project.org/doc/Rnews/Rnews_2005-2.pdf">R
+        News article</a>.
       </li>
       <li>
         The sfCluster package by Knaus can be used with <pkg>snowfall</pkg>.
