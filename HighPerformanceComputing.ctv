@@ -27,7 +27,8 @@
     </p>
     <p>
       Suggestions and corrections by Achim Zeileis, Markus Schmidberger, Martin Morgan, Max
-      Kuhn, Tomas Radivoyevitch, Jochen Knaus, and Tobias Verbeke are gratefully acknowledged.
+      Kuhn, Tomas Radivoyevitch, Jochen Knaus, Tobias Verbeke, and Hao Yu are
+      gratefully acknowledged. 
     </p>
 
     <p>
@@ -73,6 +74,14 @@
       </li>
       <li>The <pkg>taskPR</pkg> package by Samatova et al builds on top of LAM/MPI and offers 
         parallel execution of tasks.
+      </li>
+      <li>The Simple Parallel R INTerface (SPRINT) package by Hill et al
+	(<a href="http://forge.nesc.ac.uk/projects/sprint/">link</a>, 
+	<a href="ttp://www.biomedcentral.com/1471-2105/9/558">paper</a>)
+	provides a prototype framework that allows the addition of
+	parallelised functions to R for easy exploitation of HPC
+	systems. Currently only a parallised correlation calculation is
+	provided.
       </li>
     </ul>
     </p>
@@ -253,6 +262,9 @@
 	uncertainty into standard microarray analyses such as differential expression
 	all can use <pkg>snow</pkg> for parallelized operations using either
 	one of the MPI, PVM, NWS or socket protocols supported by <pkg>snow</pkg>.
+      </li>
+      <li>The bugsParallel (<a href="http://bugsparallel.googlecode.com">link</a>) 
+	uses <pkg>Rmpi</pkg>  for distributed computing of multiple MCMC chains using WinBUGS. 
       </li>
     </ul>
     </p>
