@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High Performance and Parallel Computing</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2009-02-05</version>
+   <version>2009-02-08</version>
 
   <info>
     <p>
@@ -56,7 +56,7 @@
 	implemented on top of the Twisted networking toolkit for Python.
       </li>
       <li>The <pkg>snow</pkg> (Simple Network of Workstations) package by
-        Tierney et al can use PVM, MPI, NWS as well as direct networking
+        Tierney et al. can use PVM, MPI, NWS as well as direct networking
         sockets. It provides an abstraction layer by hiding the
 	communications details. The <pkg>snowFT</pkg> package provides 
         fault-tolerance extensions to <pkg>snow</pkg>, but is no longer
@@ -72,10 +72,10 @@
       <li>The <pkg>biopara</pkg> package by Lazar and Schoenfeld offers socket-based parallel
         execution with some support for load-balancing and fault-tolerance.
       </li>
-      <li>The <pkg>taskPR</pkg> package by Samatova et al builds on top of LAM/MPI and offers 
+      <li>The <pkg>taskPR</pkg> package by Samatova et al. builds on top of LAM/MPI and offers 
         parallel execution of tasks.
       </li>
-      <li>The Simple Parallel R INTerface (SPRINT) package by Hill et al
+      <li>The Simple Parallel R INTerface (SPRINT) package by Hill et al.
 	(<a href="http://forge.nesc.ac.uk/projects/sprint/">link</a>, 
 	<a href="ttp://www.biomedcentral.com/1471-2105/9/558">paper</a>)
 	provides a prototype framework that allows the addition of
@@ -117,7 +117,7 @@
       <li>The R/parallel package by Vera, Jansen and Suppi offers a C++-based master-slave dispatch
         mechanism for parallel execution (<a href="http://www.rparallel.org/">link</a>)
       </li>
-      <li>The <pkg>RScaLAPACK</pkg> package by Samatova et al provides an interface to the ScaLAPACK
+      <li>The <pkg>RScaLAPACK</pkg> package by Samatova et al. provides an interface to the ScaLAPACK
         libraries which can replace the standard BLAS libraries and offer parallel execution of the same BLAS functions. 
 	<!-- This may however require a recompilation of the R engine itself. -->
       </li>
@@ -131,7 +131,7 @@
     <p>
     <strong>Parallel computing: Grid computing</strong>
     <ul>	     
-      <li>The <pkg>GridR</pkg> package by Wegener et al can be used in a grid computing
+      <li>The <pkg>GridR</pkg> package by Wegener et al. can be used in a grid computing
         environment via a web service, via ssh or via Condor or Globus.
       </li>
       <li>The multiR package by Grose was presented at useR! 2008 
@@ -183,7 +183,7 @@
         Engine batch-queuing system.
       </li>
       <li>
-        The <pkg>Rlsf</pkg> package by Smith et al offers an interface to the
+        The <pkg>Rlsf</pkg> package by Smith et al. offers an interface to the
         LSF cluster/grid system.
       </li>
     </ul>
@@ -197,7 +197,7 @@
 	(MPI, NWS etc) to parallelized cross-validation and bootstrap characterizations of predictive models.
       </li>
       <li>
-	The <pkg>multtest</pkg> package by Pollard et al can
+	The <pkg>multtest</pkg> package by Pollard et al. can
 	use <pkg>snow</pkg>, <pkg>Rmpi</pkg> or <pkg>rpvm</pkg> for
 	resampling-based testing of multiple hypothesis.
       </li>
@@ -258,7 +258,7 @@
 	Mansmann for parallel normalization of Affymetrix
 	microarrays, 
 	and
-	the <bioc>puma</bioc> package by Pearson et al which propagates
+	the <bioc>puma</bioc> package by Pearson et al. which propagates
 	uncertainty into standard microarray analyses such as differential expression
 	all can use <pkg>snow</pkg> for parallelized operations using either
 	one of the MPI, PVM, NWS or socket protocols supported by <pkg>snow</pkg>.
@@ -276,7 +276,7 @@
         offers <code>lm()</code> and <code>glm()</code> functionality to 
         data sets stored outside of R's main memory.
       </li>
-      <li>The <pkg>ff</pkg> package by Adler et al offers file-based access to data sets
+      <li>The <pkg>ff</pkg> package by Adler et al. offers file-based access to data sets
         that are too large to be loaded into memory, along with a number of
         higher-level functions.
       </li>
