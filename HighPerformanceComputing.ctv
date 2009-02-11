@@ -104,8 +104,8 @@
       <li>The romp package by Jamitzky was presented at useR! 2008
         (<a href="http://www.statistik.tu-dortmund.de/useR-2008/slides/Jamitzky.pdf">slides</a>)
         and offers another interface to Open MP using Fortran. The code is still
-	pre-alpha and available from the Google Code project <googlecode>romp</googlecode>.
-	An R-Forge project <forge>romp</forge> was initiated but there is no package, yet.
+	pre-alpha and available from the Google Code project <gcode>romp</gcode>.
+	An R-Forge project <rforge>romp</rforge> was initiated but there is no package, yet.
       </li>
       <li>The <pkg>fork</pkg> package by Warnes provides R-equivalents to low-level Unix system functions
         like fork, signal, wait, kill and exit in order to spawn
@@ -137,7 +137,7 @@
       <li>The multiR package by Grose was presented at useR! 2008 
 	but has not been released. It may offer a snow-style framework on a grid computing platform.
       </li>
-      <li>The <forge>biocep-distrib</forge> project by Chine offers a Java-based framework for local, Grid,
+      <li>The <rforge>biocep-distrib</rforge> project by Chine offers a Java-based framework for local, Grid,
         or Cloud computing. It is under active development.
       </li>
       <li>
@@ -263,8 +263,8 @@
 	all can use <pkg>snow</pkg> for parallelized operations using either
 	one of the MPI, PVM, NWS or socket protocols supported by <pkg>snow</pkg>.
       </li>
-      <li>The bugsParallel (<a href="http://bugsparallel.googlecode.com">link</a>) 
-	uses <pkg>Rmpi</pkg>  for distributed computing of multiple MCMC chains using WinBUGS. 
+      <li>The <gcode>bugsparallel</gcode> uses <pkg>Rmpi</pkg>  for distributed
+          computing of multiple MCMC chains using WinBUGS. 
       </li>
     </ul>
     </p>
@@ -384,10 +384,11 @@
     <a href="https://stat.ethz.ch/pipermail/R-SIG-HPC/">Mailing List: R Special Interest Group High Performance Computing</a>
     <a href="http://epub.ub.uni-muenchen.de/8991/">Schmidberger, Morgan, Eddelbuettel, Yu, Tierney and Mansmann (2009) paper on 'State-of-the-Art in Parallel Computing with R</a>
     <a href="http://www.stat.uiowa.edu/~luke/R/experimental/">Luke Tierney's code directory for pnmath and pnmath0</a>
-    <googlecode>romp</googlecode>
-    <forge>biocep-distrib</forge>
+    <rforge>biocep-distrib</rforge>
     <bioc>affyPara</bioc>
     <bioc>puma</bioc>
+    <gcode>romp</gcode>
+    <gcode>bugsparallel</gcode>
     <a href="https://computing.llnl.gov/linux/slurm/">Slurm project at Lawrence Livermore National Laboratory</a>
     <a href="http://www.cs.wisc.edu/condor/">Condor project at University of Wisconsin-Madison</a>
     <a href="http://www.imbi.uni-freiburg.de/parallel/">Parallel Computing in R with sfCluster/snowfall</a>
