@@ -33,6 +33,7 @@
 
     <p>
       <strong>Parallel computing: Explicit parallelism</strong>
+    </p>
     <ul>	     
       <li>Several packages provide the communications layer required for parallel
 	computing. The first package in this area was
@@ -84,10 +85,10 @@
 	provided.
       </li>
     </ul>
-    </p>
 
     <p>
     <strong>Parallel computing: Implicit parallelism</strong>
+    </p>
     <ul>	     
       <li>The pnmath package by Tierney 
 	(<a href="http://www.stat.uiowa.edu/~luke/R/experimental/">link</a>)
@@ -126,10 +127,10 @@
       </li>
 
     </ul>
-    </p>
 
     <p>
     <strong>Parallel computing: Grid computing</strong>
+    </p>
     <ul>	     
       <li>The <pkg>GridR</pkg> package by Wegener et al. can be used in a grid computing
         environment via a web service, via ssh or via Condor or Globus.
@@ -145,20 +146,20 @@
 	for a Map/Reduce programming framework. (<a href="http://www.stat.purdue.edu/~sguha/rhipe">link</a>)
       </li>
     </ul>
-    </p>
 
     <p>
     <strong>Parallel computing: Random numbers</strong>
+    </p>
     <ul>	     
       <li>Random-number generators for parallel computing are available via
         the <pkg>rsprng</pkg> package by Li, and the <pkg>rlecuyer</pkg>
         package by Sevcikova and Rossini.
       </li>
     </ul>
-    </p>
 
     <p>
     <strong>Parallel computing: Resource managers and batch schedulers</strong>
+    </p>
     <ul>	     
        <li>
         Job-scheduling toolkits permit management of
@@ -187,10 +188,10 @@
         LSF cluster/grid system.
       </li>
     </ul>
-    </p>
 
     <p>
     <strong>Parallel computing: Applications</strong>
+    </p>
     <ul>	     
       <li>
         The <pkg>caret</pkg> package by Kuhn can use can use various frameworks
@@ -267,10 +268,10 @@
           computing of multiple MCMC chains using WinBUGS. 
       </li>
     </ul>
-    </p>
 
     <p>
     <strong>Large memory and out-of-memory data</strong>
+    </p>
     <ul>
       <li>The <pkg>biglm</pkg> package by Lumley uses incremental computations to
         offers <code>lm()</code> and <code>glm()</code> functionality to 
@@ -291,10 +292,10 @@
         reviewed here.
       </li>
     </ul>
-    </p>
 
     <p>
     <strong>Easier interfaces for Compiled code</strong>
+    </p>
     <ul>
       <li>
 	The <pkg>inline</pkg> package by Sklyar, Murdoch and Smith eases adding code in C, C++ or Fortran to R. It
@@ -314,10 +315,10 @@
       <!-- <li> -->
       <!-- </li>Debugging tools -->
     </ul>
-    </p>
 
     <p>
     <strong>Profiling tools</strong>
+    </p>
     <ul>
       <li>The <pkg>profr</pkg> package by Wickham can visualize output from
 	the <code>Rprof</code> interface for profiling.
@@ -325,7 +326,6 @@
       <li>The <pkg>proftools</pkg> package by Tierney can be used to analyse profiling output.
       </li>
     </ul>
-    </p>
 
   </info>
 
