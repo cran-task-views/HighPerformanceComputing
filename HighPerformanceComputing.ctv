@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High Performance and Parallel Computing</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2009-02-08</version>
+   <version>2009-02-26</version>
 
   <info>
     <p>
@@ -304,7 +304,10 @@
       </li>
       <li>
 	The <pkg>Rcpp</pkg> package by Eddelbuettel offers a number of C++ clases that makes
-	transferring R objects to C++ functions (and back) easier.  
+	transferring R objects to C++ functions (and back) easier, and
+	the <rforge>RInside</rforge> package by Eddelbuettel allows easy
+	embedding of R itself into C++ applications for faster and more
+	direct data transfer..  
       </li>
       <li>
 	The <pkg>rJava</pkg> package by Urbanek provides a low-level interface to Java
@@ -385,6 +388,7 @@
     <a href="http://epub.ub.uni-muenchen.de/8991/">Schmidberger, Morgan, Eddelbuettel, Yu, Tierney and Mansmann (2009) paper on 'State-of-the-Art in Parallel Computing with R</a>
     <a href="http://www.stat.uiowa.edu/~luke/R/experimental/">Luke Tierney's code directory for pnmath and pnmath0</a>
     <rforge>biocep-distrib</rforge>
+    <rforge>RInside</rforge>
     <bioc>affyPara</bioc>
     <bioc>puma</bioc>
     <gcode>romp</gcode>
