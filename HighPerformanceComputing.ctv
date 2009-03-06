@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High Performance and Parallel Computing</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2009-02-26</version>
+   <version>2009-03-09</version>
 
   <info>
     <p>
@@ -256,11 +256,13 @@
 	the <pkg>rgenoud</pkg> package by Mebane and Sekhon for genetic
 	optimization using derivatives 
 	the <bioc>affyPara</bioc> package by Schmidberger, Vicedo and
-	Mansmann for parallel normalization of Affymetrix
-	microarrays, 
-	and
+	Mansmann for parallel normalization of Affymetrix microarrays, 
 	the <bioc>puma</bioc> package by Pearson et al. which propagates
-	uncertainty into standard microarray analyses such as differential expression
+	uncertainty into standard microarray analyses such as differential
+	expression
+	and
+	the <pkg>ccems</pkg> package for combinatorically complex equilibrium
+	model selection
 	all can use <pkg>snow</pkg> for parallelized operations using either
 	one of the MPI, PVM, NWS or socket protocols supported by <pkg>snow</pkg>.
       </li>
@@ -341,6 +343,7 @@
     <pkg>biopara</pkg>
     <pkg>bnlearn</pkg>
     <pkg>caret</pkg>
+    <pkg>ccems</pkg>
     <pkg>ff</pkg>
     <pkg>fork</pkg>
     <pkg>GAMBoost</pkg>
