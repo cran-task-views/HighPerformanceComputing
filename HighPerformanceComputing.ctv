@@ -26,9 +26,9 @@
       view to the <a href="mailto:Dirk.Eddelbuettel@R-project.org">task view maintainer</a>.
     </p>
     <p>
-      Suggestions and corrections by Achim Zeileis, Markus Schmidberger, Martin Morgan, Max
-      Kuhn, Tomas Radivoyevitch, Jochen Knaus, Tobias Verbeke, and Hao Yu are
-      gratefully acknowledged. 
+      Suggestions and corrections by Achim Zeileis, Markus Schmidberger,
+      Martin Morgan, Max Kuhn, Tomas Radivoyevitch, Jochen Knaus, Tobias
+      Verbeke, Hao Yu, and David Roseberg are gratefully acknowledged.
     </p>
 
     <p>
@@ -293,6 +293,12 @@
         (such as <pkg>sqldf</pkg> by Grothendieck) are also of potential interest but not (yet?)
         reviewed here.
       </li>
+      <li>The <pkg>HadoopStreaming</pkg> package provides a framework for
+	writing map/reduce scripts for use in Hadoop Streaming; it also
+	facilitates operating on data in a streaming fashion which does not
+	require Hadoop.
+      </li>
+
     </ul>
 
     <p>
@@ -349,6 +355,7 @@
     <pkg>GAMBoost</pkg>
     <pkg>Geneland</pkg>
     <pkg>GridR</pkg>
+    <pkg>HadoopStreaming</pkg>
     <pkg>inline</pkg>
     <pkg>latentnet</pkg>
     <pkg>lga</pkg>
