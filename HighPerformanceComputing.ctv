@@ -334,7 +334,7 @@
       <li>The <pkg>profr</pkg> package by Wickham can visualize output from
 	the <code>Rprof</code> interface for profiling.
       </li>
-      <li>The <pkg>proftools</pkg> package by Tierney can be used to analyse profiling output.
+      <li>The <pkg>proftools</pkg> package by Tierney can also be used to analyse profiling output.
       </li>
     </ul>
 
