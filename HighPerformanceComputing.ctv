@@ -290,8 +290,8 @@
         same computer can also shared big memory objects.
       </li>
       <li>A large number of database packages, and database-alike packages
-        (such as <pkg>sqldf</pkg> by Grothendieck) are also of potential interest but not (yet?)
-        reviewed here.
+        (such as <pkg>sqldf</pkg> by Grothendieck and <pkg>data.table</pkg>
+        by Dowle) are also of potential interest but not reviewed here.
       </li>
       <li>The <pkg>HadoopStreaming</pkg> package provides a framework for
 	writing map/reduce scripts for use in Hadoop Streaming; it also
@@ -350,6 +350,7 @@
     <pkg>bnlearn</pkg>
     <pkg>caret</pkg>
     <pkg>ccems</pkg>
+    <pkg>data.table</pkg>
     <pkg>ff</pkg>
     <pkg>fork</pkg>
     <pkg>GAMBoost</pkg>
