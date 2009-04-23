@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High Performance and Parallel Computing</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2009-04-16</version>
+   <version>2009-04-22</version>
 
   <info>
     <p>
@@ -92,15 +92,14 @@
     <ul>	     
       <li>The pnmath package by Tierney 
 	(<a href="http://www.stat.uiowa.edu/~luke/R/experimental/">link</a>)
-	uses the Open MP parallel
-        processing directives of recent compilers (such gcc 4.2 or later) for implicit
-        parallelism by replacing a number of internal R functions with
-        replacements that can make use of multiple cores --- without
-        any explicit requests from the user.  The alternate
-        pnmath0 package offers the same functionality using
+	uses the Open MP parallel processing directives of recent compilers
+        (such gcc 4.2 or later) for implicit parallelism by replacing a
+        number of internal R functions with replacements that can make use of
+        multiple cores --- without any explicit requests from the user.  The
+        alternate pnmath0 package offers the same functionality using
         Pthreads for environments in which the newer compilers are not
         available.  Similar functionality is expected to become integrated
-    	into R 'eventually'.
+        into R 'eventually'.
       </li>
       <li>The romp package by Jamitzky was presented at useR! 2008
         (<a href="http://www.statistik.tu-dortmund.de/useR-2008/slides/Jamitzky.pdf">slides</a>)
@@ -123,9 +122,15 @@
 	<!-- This may however require a recompilation of the R engine itself. -->
       </li>
       <li>
-	The SPRINT package by Hill adds another parallel framework to R (<a href="http://forge.nesc.ac.uk/projects/sprint">link</a>).
+	The SPRINT package by Hill adds another parallel framework to R 
+	(<a href="http://forge.nesc.ac.uk/projects/sprint">link</a>).
       </li>
-
+      <li>
+	The <pkg>mapReduce</pkg> package by Brown provides a simple framework
+	for parallel computations following the Google mapReduce approach. It
+	provides a pure R implementation,  a syntax following the mapReduce
+	paper and a flexible and parallelizable back end. 
+      </li>
     </ul>
 
     <p>
@@ -272,6 +277,19 @@
     </ul>
 
     <p>
+    <strong>Parallel computing: GPUs</strong>
+    </p>
+    <ul>	     
+      <li>
+        The <pkg>gputools</pkg> package by Buckner provides several common
+        data-mining algorithms which are implemented using a mixture of
+        nVidia's CUDA langauge and cublas library. Given a computer with
+        an nVidia GPU these functions may be substantially more efficient
+        than native R routines. 
+      </li>
+    </ul>
+
+    <p>
     <strong>Large memory and out-of-memory data</strong>
     </p>
     <ul>
@@ -355,12 +373,14 @@
     <pkg>fork</pkg>
     <pkg>GAMBoost</pkg>
     <pkg>Geneland</pkg>
+    <pkg>gputools</pkg>
     <pkg>GridR</pkg>
     <pkg>HadoopStreaming</pkg>
     <pkg>inline</pkg>
     <pkg>latentnet</pkg>
     <pkg>lga</pkg>
     <pkg>maanova</pkg>
+    <pkg>mapReduce</pkg>
     <pkg>Matching</pkg>
     <pkg>multicore</pkg>
     <pkg>multtest</pkg>
