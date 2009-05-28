@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High Performance and Parallel Computing</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2009-05-05</version>
+   <version>2009-05-28</version>
 
   <info>
     <p>
@@ -60,8 +60,7 @@
         Tierney et al. can use PVM, MPI, NWS as well as direct networking
         sockets. It provides an abstraction layer by hiding the
 	communications details. The <pkg>snowFT</pkg> package provides 
-        fault-tolerance extensions to <pkg>snow</pkg>, but is no longer
-        actively maintained.
+        fault-tolerance extensions to <pkg>snow</pkg>.
       </li>
       <li>The <pkg>snowfall</pkg> package by Knaus provides a more recent
 	alternative to <pkg>snow</pkg>. Functions can be used in sequential or
