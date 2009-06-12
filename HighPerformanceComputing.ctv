@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High Performance and Parallel Computing</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2009-05-28</version>
+   <version>2009-06-12</version>
 
   <info>
     <p>
@@ -420,7 +420,7 @@
 
   <links>
     <a href="http://www.stat.uiowa.edu/~luke/classes/295-hpc/">HPC computing notes by Luke Tierney for HPC class at University of Iowa</a> 
-    <a href="https://stat.ethz.ch/pipermail/R-SIG-HPC/">Mailing List: R Special Interest Group High Performance Computing</a>
+    <a href="https://stat.ethz.ch/mailman/listinfo/r-sig-hpc/">Mailing List: R Special Interest Group High Performance Computing</a>
     <a href="http://epub.ub.uni-muenchen.de/8991/">Schmidberger, Morgan, Eddelbuettel, Yu, Tierney and Mansmann (2009) paper on 'State-of-the-Art in Parallel Computing with R</a>
     <a href="http://www.stat.uiowa.edu/~luke/R/experimental/">Luke Tierney's code directory for pnmath and pnmath0</a>
     <rforge>biocep-distrib</rforge>
