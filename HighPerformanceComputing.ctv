@@ -83,6 +83,13 @@
 	systems. Currently only a parallised correlation calculation is
 	provided.
       </li>
+      <li>The <pkg>foreach</pkg> package allows general iteration over elements in a 
+	collection without the use of an explicit loop counter. Using foreach 
+	without side effects also facilitates executing the loop in parallel 
+	which is possible via the <pkg>doMC</pkg> (using <pkg>multicore</pkg>,
+	on single workstations) and <pkg>doSNOW</pkg> (using <pkg>snow</pkg>,
+	see above) packages.
+      </li>
     </ul>
 
     <p>
@@ -372,8 +379,11 @@
     <pkg>bnlearn</pkg>
     <pkg>caret</pkg>
     <pkg>ccems</pkg>
+    <pkg>doMC</pkg>
+    <pkg>doSNOW</pkg>
     <pkg>data.table</pkg>
     <pkg>ff</pkg>
+    <pkg>foreach</pkg>
     <pkg>fork</pkg>
     <pkg>GAMBoost</pkg>
     <pkg>Geneland</pkg>
@@ -434,7 +444,7 @@
     <a href="http://www.imbi.uni-freiburg.de/parallel/">Parallel Computing in R with sfCluster/snowfall</a>
     <a href="http://en.wikipedia.org/wiki/Message_Passing_Interface">Wikipedia: Message Passing Interface (MPI)</a>
     <a href="http://en.wikipedia.org/wiki/Parallel_Virtual_Machine">Wikipedia: Parallel Virtual Machine (PVM)</a>
-    <a href="http://dirk.eddelbuettel.com/papers/bocDec2008introHPCwithR.pdf">Slides from Introduction to High-Performance Computing with R tutorial / workshop presentation</a> 
+    <a href="http://dirk.eddelbuettel.com/papers/useR2009hpcTutorial.pdf">Slides from Introduction to High-Performance Computing with R tutorial at UseR 2009 in Rennes</a> 
   </links>
 
 </CRANTaskView>
