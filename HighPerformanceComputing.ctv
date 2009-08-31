@@ -2,8 +2,9 @@
 <CRANTaskView>
 
    <name>HighPerformanceComputing</name>
-   <topic>High Performance and Parallel Computing</topic>
+   <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
+   <version>2009-08-31</version>
    <version>2009-08-25</version>
 
   <info>
@@ -28,7 +29,7 @@
     <p>
       Suggestions and corrections by Achim Zeileis, Markus Schmidberger,
       Martin Morgan, Max Kuhn, Tomas Radivoyevitch, Jochen Knaus, Tobias
-      Verbeke, Hao Yu, and David Roseberg are gratefully acknowledged.
+      Verbeke, Hao Yu, and David Rosenberg are gratefully acknowledged.
     </p>
 
     <p>
@@ -260,7 +261,7 @@
 	the <pkg>latentnet</pkg> package by Krivitsky and Handcock for latent
 	position and cluster models,
 	the <pkg>lga</pkg> package by Harrington for linear grouping analysis,
-	the <pkg>peperr</pkg> package by Porelius and Binder for parallised
+	the <pkg>peperr</pkg> package by Porzelius and Binder for parallised
 	estimation of prediction error,
 	the <pkg>orloca</pkg> package by Fernandez-Palacin and Munoz-Marquez
 	for operations research locational analysis,
