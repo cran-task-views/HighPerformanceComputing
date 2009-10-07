@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2009-08-31</version>
+   <version>2009-10-07</version>
 
   <info>
     <p>
@@ -28,7 +28,7 @@
     <p>
       Suggestions and corrections by Achim Zeileis, Markus Schmidberger,
       Martin Morgan, Max Kuhn, Tomas Radivoyevitch, Jochen Knaus, Tobias
-      Verbeke, Hao Yu, and David Rosenberg are gratefully acknowledged.
+      Verbeke, Hao Yu, David Rosenberg amd Marco Enea are gratefully acknowledged.
     </p>
 
     <p>
@@ -327,6 +327,13 @@
 	facilitates operating on data in a streaming fashion which does not
 	require Hadoop.
       </li>
+      <li>The <pkg>speedglm</pkg> package permits to fit (generalised) linear
+	models to large data.  For in-memory data sets, speedlm() or
+	speedglm() can be used along with update.speedlm() which can update
+	fitted models with new data. For out-of-memory data sets, shglm() is
+	available; it works in the presence of factors and can check for
+	singular matrices.
+      </li>
 
     </ul>
 
@@ -421,6 +428,7 @@
     <pkg priority="core">snow</pkg>
     <pkg>snowfall</pkg>
     <pkg>snowFT</pkg>
+    <pkg>speedglm</pkg>
     <pkg>sqldf</pkg>
     <pkg>STAR</pkg>
     <pkg>taskPR</pkg>
