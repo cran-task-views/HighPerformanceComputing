@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2009-10-07</version>
+   <version>2009-10-19</version>
 
   <info>
     <p>
@@ -298,6 +298,12 @@
         an nVidia GPU these functions may be substantially more efficient
         than native R routines. 
       </li>
+      <li>
+        The <pkg>cudaBayesreg</pkg> package by da Silva implements
+        the <code>rhierLinearModel</code> from the <pkg>bayesm</pkg> package 
+	using nVidia's CUDA langauge and tools to provide high-performance
+        statistical analysis of fMRI voxels.
+      </li>
     </ul>
 
     <p>
@@ -386,6 +392,7 @@
     <pkg>bnlearn</pkg>
     <pkg>caret</pkg>
     <pkg>ccems</pkg>
+    <pkg>cudaBayesreg</pkg>
     <pkg>doMC</pkg>
     <pkg>doSNOW</pkg>
     <pkg>data.table</pkg>
