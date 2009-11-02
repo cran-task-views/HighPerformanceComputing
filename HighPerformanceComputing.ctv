@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2009-10-19</version>
+   <version>2009-11-02</version>
 
   <info>
     <p>
@@ -122,10 +122,6 @@
       </li>
       <li>The R/parallel package by Vera, Jansen and Suppi offers a C++-based master-slave dispatch
         mechanism for parallel execution (<a href="http://www.rparallel.org/">link</a>)
-      </li>
-      <li>The <pkg>RScaLAPACK</pkg> package by Samatova et al. provides an interface to the ScaLAPACK
-        libraries which can replace the standard BLAS libraries and offer parallel execution of the same BLAS functions. 
-	<!-- This may however require a recompilation of the R engine itself. -->
       </li>
       <li>
 	The SPRINT package by Hill adds another parallel framework to R 
@@ -428,7 +424,6 @@
     <pkg>Rlsf</pkg>
     <pkg priority="core">Rmpi</pkg>
     <pkg>rpvm</pkg>
-    <pkg>RScaLAPACK</pkg>
     <pkg>Rsge</pkg>
     <pkg>rsprng</pkg>
     <pkg>scaleboot</pkg>
