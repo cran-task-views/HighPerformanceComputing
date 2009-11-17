@@ -237,12 +237,6 @@
 	package by Kane and Emerson can use <pkg>nws</pkg> for parallelized operations.
       </li>
       <li>
-	The <pkg>networksis</pkg>
-	package by Admiraal and Handcock can use <pkg>rpvm</pkg>
-	and <pkg>snow</pkg> for parallelized simulation of bipartite graphs
-	via sequential importance smapling.
-      </li>
-      <li>
 	The <pkg>BARD</pkg> package by Altman for better automated redistring,
 	the <pkg>GAMBoost</pkg> package by Binder for <code>glm</code>
 	and <code>gam</code> model fitting via boosting using b-splines,
@@ -408,7 +402,6 @@
     <pkg>Matching</pkg>
     <pkg>multicore</pkg>
     <pkg>multtest</pkg>
-    <pkg>networksis</pkg>
     <pkg>nws</pkg>
     <pkg>orloca</pkg>
     <pkg>papply</pkg>
