@@ -447,7 +447,7 @@
     <a href="http://www.imbi.uni-freiburg.de/parallel/">Parallel Computing in R with sfCluster/snowfall</a>
     <a href="http://en.wikipedia.org/wiki/Message_Passing_Interface">Wikipedia: Message Passing Interface (MPI)</a>
     <a href="http://en.wikipedia.org/wiki/Parallel_Virtual_Machine">Wikipedia: Parallel Virtual Machine (PVM)</a>
-    <a href="http://dirk.eddelbuettel.com/papers/useR2009hpcTutorial.pdf">Slides from Introduction to High-Performance Computing with R tutorial at UseR 2009 in Rennes</a> 
+    <a href="http://dirk.eddelbuettel.com/papers/ismNov2009introHPCwithR.pdf">Slides from Introduction to High-Performance Computing with R tutorial help in Nov 2009 at the Institute for Statistical Mathematics, Tokyo, Japan</a> 
   </links>
 
 </CRANTaskView>
