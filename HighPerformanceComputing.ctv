@@ -28,7 +28,7 @@
     <p>
       Suggestions and corrections by Achim Zeileis, Markus Schmidberger,
       Martin Morgan, Max Kuhn, Tomas Radivoyevitch, Jochen Knaus, Tobias
-      Verbeke, Hao Yu, David Rosenberg amd Marco Enea are gratefully acknowledged.
+      Verbeke, Hao Yu, David Rosenberg, Marco Enea and Ivo Welch are gratefully acknowledged.
     </p>
 
     <p>
@@ -294,6 +294,10 @@
 	using nVidia's CUDA langauge and tools to provide high-performance
         statistical analysis of fMRI voxels.
       </li>
+      <li>
+        The rgpu package (see below for link) aims to speed up bioinformatics
+        analysis by using the GPU.
+      </li>
     </ul>
 
     <p>
@@ -448,6 +452,7 @@
     <a href="http://en.wikipedia.org/wiki/Message_Passing_Interface">Wikipedia: Message Passing Interface (MPI)</a>
     <a href="http://en.wikipedia.org/wiki/Parallel_Virtual_Machine">Wikipedia: Parallel Virtual Machine (PVM)</a>
     <a href="http://dirk.eddelbuettel.com/papers/ismNov2009introHPCwithR.pdf">Slides from Introduction to High-Performance Computing with R tutorial help in Nov 2009 at the Institute for Statistical Mathematics, Tokyo, Japan</a> 
+    <a href="https://gforge.nbic.nl/projects/rgpu/">rgpu project at nbic.nl</a>
   </links>
 
 </CRANTaskView>
