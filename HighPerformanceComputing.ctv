@@ -334,7 +334,11 @@
 	available; it works in the presence of factors and can check for
 	singular matrices.
       </li>
-
+      <li>
+	The <pkg>biglars</pkg> package by Seligman et al can use the <pkg>ff</pkg>
+	to support large-than-memory datasets for least-angle regression,
+	lasso and stepwise regression.
+      </li>
     </ul>
 
     <p>
@@ -347,11 +351,11 @@
 	segments that are stored as R strings.
       </li>
       <li>
-	The <pkg>Rcpp</pkg> package by Eddelbuettel offers a number of C++ clases that makes
-	transferring R objects to C++ functions (and back) easier, and
-	the <rforge>RInside</rforge> package by Eddelbuettel allows easy
-	embedding of R itself into C++ applications for faster and more
-	direct data transfer..  
+	The <pkg>Rcpp</pkg> package by Eddelbuettel and Francois offers a
+        number of C++ clases that makes transferring R objects to C++
+        functions (and back) easier, and the <rforge>RInside</rforge> package
+        by Eddelbuettel allows easy embedding of R itself into C++
+        applications for faster and more direct data transfer.
       </li>
       <li>
 	The <pkg>rJava</pkg> package by Urbanek provides a low-level interface to Java
@@ -380,6 +384,7 @@
     <pkg>ADaCGH</pkg>
     <pkg>BARD</pkg>
     <pkg>bcp</pkg>
+    <pkg>biglars</pkg>
     <pkg>biglm</pkg>
     <pkg>bigmemory</pkg>
     <pkg>biopara</pkg>
