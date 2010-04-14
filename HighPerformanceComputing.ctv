@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2010-01-05</version>
+   <version>2010-04-14</version>
 
   <info>
     <p>
@@ -193,6 +193,10 @@
       <li>
         The <pkg>Rlsf</pkg> package by Smith et al. offers an interface to the
         LSF cluster/grid system.
+      </li>
+      <li>
+        The <pkg>batch</pkg> package by Hoffmann can launch parallel computing
+        requests onto a cluster and gather results.
       </li>
     </ul>
 
@@ -383,6 +387,7 @@
   <packagelist>
     <pkg>ADaCGH</pkg>
     <pkg>BARD</pkg>
+    <pkg>batch</pkg>
     <pkg>bcp</pkg>
     <pkg>biglars</pkg>
     <pkg>biglm</pkg>
