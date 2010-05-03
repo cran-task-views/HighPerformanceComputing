@@ -28,7 +28,8 @@
     <p>
       Suggestions and corrections by Achim Zeileis, Markus Schmidberger,
       Martin Morgan, Max Kuhn, Tomas Radivoyevitch, Jochen Knaus, Tobias
-      Verbeke, Hao Yu, David Rosenberg, Marco Enea and Ivo Welch are gratefully acknowledged.
+      Verbeke, Hao Yu, David Rosenberg, Marco Enea, Ivo Welch and Jay Emerson
+      are gratefully acknowledged.
     </p>
 
     <p>
@@ -237,8 +238,7 @@
       </li>
       <li>
 	The <pkg>bcp</pkg> package by Erdman and Emerson for the bayesian
-	analysis of change points, and the <pkg>bigmemory</pkg>
-	package by Kane and Emerson can use <pkg>nws</pkg> for parallelized operations.
+	analysis of change points can use <pkg>nws</pkg> for parallelized operations.
       </li>
       <li>
 	The <pkg>BARD</pkg> package by Altman for better automated redistring,
@@ -317,10 +317,10 @@
         higher-level functions.
       </li>
       <li>The <pkg>bigmemory</pkg> package by Kane and Emerson permits storing large objects such
-        as matrices in memory and uses external pointer objects to refer to
-        them.  This permits transparent access from R without bumping
-        against R's internal memory limits.  Several R processes on the
-        same computer can also shared big memory objects.
+        as matrices in memory (as well as via files) and uses external
+        pointer objects to refer to them.  This permits transparent access
+        from R without bumping against R's internal memory limits.  Several R
+        processes on the same computer can also shared big memory objects.
       </li>
       <li>A large number of database packages, and database-alike packages
         (such as <pkg>sqldf</pkg> by Grothendieck and <pkg>data.table</pkg>
