@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2010-05-03</version>
+   <version>2010-05-29</version>
 
   <info>
     <p>
@@ -91,6 +91,11 @@
 	on single workstations), <pkg>doSNOW</pkg> (using <pkg>snow</pkg>,
 	see above), <pkg>doMPI</pkg> (using <pkg>Rmpi</pkg>) packages and
 	<pkg>doRedis</pkg> (using <pkg>rredis</pkg>) packages.
+      </li>
+      <li>The <pkg>Rdsm</pkg> package provides a threads-like parallel
+	computing environment, both on multicore machine and across the network
+	by providing facilities inspired from distributed shared memory
+	programming.
       </li>
     </ul>
 
@@ -351,20 +356,21 @@
     </p>
     <ul>
       <li>
-	The <pkg>inline</pkg> package by Sklyar, Murdoch and Smith eases adding code in C, C++ or Fortran to R. It
-	takes care of the compilation, linking and loading of embeded code
-	segments that are stored as R strings.
+	The <pkg>inline</pkg> package by Sklyar et al eases adding code in C,
+	C++ or Fortran to R. It takes care of the compilation, linking and
+	loading of embeded code segments that are stored as R strings.
       </li>
       <li>
 	The <pkg>Rcpp</pkg> package by Eddelbuettel and Francois offers a
         number of C++ clases that makes transferring R objects to C++
         functions (and back) easier, and the <rforge>RInside</rforge> package
-        by Eddelbuettel allows easy embedding of R itself into C++
+        by the same authors allows easy embedding of R itself into C++
         applications for faster and more direct data transfer.
       </li>
       <li>
-	The <pkg>rJava</pkg> package by Urbanek provides a low-level interface to Java
-	similar to the <code>.Call()</code> interface for C and C++.
+	The <pkg>rJava</pkg> package by Urbanek provides a low-level
+	interface to Java similar to the <code>.Call()</code> interface for C
+	and C++.
       </li>
       <!-- <li>Fortran interfaces -->
       <!-- </li> -->
@@ -428,6 +434,7 @@
     <pkg>proftools</pkg>
     <pkg>pvclust</pkg>
     <pkg>Rcpp</pkg>
+    <pkg>Rdsm</pkg>
     <pkg>rgenoud</pkg>
     <pkg>rJava</pkg>
     <pkg>rlecuyer</pkg>
