@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2010-07-30</version>
+   <version>2010-09-16</version>
 
   <info>
     <p>
@@ -292,7 +292,8 @@
         data-mining algorithms which are implemented using a mixture of
         nVidia's CUDA langauge and cublas library. Given a computer with
         an nVidia GPU these functions may be substantially more efficient
-        than native R routines. 
+        than native R routines.  The <pkg>rpud</pkg> package provides an
+        optimised distance metric for NVidia-based GPUs.
       </li>
       <li>
         The <pkg>cudaBayesreg</pkg> package by da Silva implements
@@ -303,6 +304,14 @@
       <li>
         The rgpu package (see below for link) aims to speed up bioinformatics
         analysis by using the GPU.
+      </li>
+      <li>
+	The <pkg>magma</pkg> package provides an interface to the hybrid
+	GPU/CPU library Magma (see below for link).
+      </li>
+      <li>
+	The <pkg>gbcd</pkg> package implements a benchmarking framework for
+	BLAS and GPUs (using <pkg>gputools</pkg>).
       </li>
     </ul>
 
@@ -409,6 +418,7 @@
     <pkg>foreach</pkg>
     <pkg>fork</pkg>
     <pkg>GAMBoost</pkg>
+    <pkg>gbcd</pkg>
     <pkg>Geneland</pkg>
     <pkg>gputools</pkg>
     <pkg>GridR</pkg>
@@ -417,6 +427,7 @@
     <pkg>latentnet</pkg>
     <pkg>lga</pkg>
     <pkg>maanova</pkg>
+    <pkg>magma</pkg>
     <pkg>mapReduce</pkg>
     <pkg>Matching</pkg>
     <pkg>multicore</pkg>
@@ -435,6 +446,7 @@
     <pkg>rJava</pkg>
     <pkg>rlecuyer</pkg>
     <pkg priority="core">Rmpi</pkg>
+    <pkg>rpud</pkg>
     <pkg>rpvm</pkg>
     <pkg>Rsge</pkg>
     <pkg>rsprng</pkg>
@@ -468,6 +480,7 @@
     <a href="http://en.wikipedia.org/wiki/Parallel_Virtual_Machine">Wikipedia: Parallel Virtual Machine (PVM)</a>
     <a href="http://dirk.eddelbuettel.com/papers/ismNov2009introHPCwithR.pdf">Slides from Introduction to High-Performance Computing with R tutorial help in Nov 2009 at the Institute for Statistical Mathematics, Tokyo, Japan</a> 
     <a href="https://gforge.nbic.nl/projects/rgpu/">rgpu project at nbic.nl</a>
+    <a href="http://icl.cs.utk.edu/magma/">Magma: Matrix Algebra on GPU and Multicore architectures</a>
   </links>
 
 </CRANTaskView>
