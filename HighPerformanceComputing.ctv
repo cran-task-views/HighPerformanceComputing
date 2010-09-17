@@ -310,7 +310,7 @@
 	GPU/CPU library Magma (see below for link).
       </li>
       <li>
-	The <pkg>gbcd</pkg> package implements a benchmarking framework for
+	The <pkg>gcbd</pkg> package implements a benchmarking framework for
 	BLAS and GPUs (using <pkg>gputools</pkg>).
       </li>
     </ul>
@@ -418,7 +418,7 @@
     <pkg>foreach</pkg>
     <pkg>fork</pkg>
     <pkg>GAMBoost</pkg>
-    <pkg>gbcd</pkg>
+    <pkg>gcbd</pkg>
     <pkg>Geneland</pkg>
     <pkg>gputools</pkg>
     <pkg>GridR</pkg>
