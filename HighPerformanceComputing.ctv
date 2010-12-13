@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2010-09-16</version>
+   <version>2010-12-12</version>
 
   <info>
     <p>
@@ -281,6 +281,15 @@
           predictors based on an intensive and comprehensive search over the
           entire covariate space.
       </li>
+      <li>The <pkg>dclone</pkg> package provides a global optimization
+	approach and a variant of simulated annealing which exploits Bayesian
+	MCMC tools to get MLE point estimates and standard errors using low
+	level functions for implementing maximum likelihood estimating
+	procedures for complex models using data cloning and Bayesian Markov
+	chain Monte Carlo methods with support for JAGS, WinBUGS and
+	OpenBUGS; parallel computing is supported via the <pkg>snow</pkg>
+	package.
+      </li>
     </ul>
 
     <p>
@@ -409,6 +418,7 @@
     <pkg>caret</pkg>
     <pkg>ccems</pkg>
     <pkg>cudaBayesreg</pkg>
+    <pkg>dclone</pkg>
     <pkg>doMC</pkg>
     <pkg>doMPI</pkg>
     <pkg>doRedis</pkg>
