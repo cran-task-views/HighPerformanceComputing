@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2010-12-12</version>
+   <version>2011-02-22</version>
 
   <info>
     <p>
@@ -84,12 +84,14 @@
 	systems. Currently only a parallised correlation calculation is
 	provided.
       </li>
-      <li>The <pkg>foreach</pkg> package allows general iteration over elements in a 
-	collection without the use of an explicit loop counter. Using foreach 
-	without side effects also facilitates executing the loop in parallel 
-	which is possible via the <pkg>doMC</pkg> (using <pkg>multicore</pkg>,
-	on single workstations), <pkg>doSNOW</pkg> (using <pkg>snow</pkg>,
-	see above), <pkg>doMPI</pkg> (using <pkg>Rmpi</pkg>) packages and
+      <li>The <pkg>foreach</pkg> package allows general iteration over
+	elements in a collection without the use of an explicit loop
+	counter. Using foreach without side effects also facilitates
+	executing the loop in parallel which is possible via
+	the <pkg>doMC</pkg> (using <pkg>multicore</pkg> on single
+	workstations, or <rforge>doSMP</rforge> on
+	Windows)), <pkg>doSNOW</pkg> (using <pkg>snow</pkg>, see
+	above), <pkg>doMPI</pkg> (using <pkg>Rmpi</pkg>) packages and
 	<pkg>doRedis</pkg> (using <pkg>rredis</pkg>) packages.
       </li>
       <li>The <pkg>Rdsm</pkg> package provides a threads-like parallel
@@ -124,8 +126,11 @@
         like fork, signal, wait, kill and exit in order to spawn
         sub-processes for parallel execution. 
       </li>
-      <li>The <pkg>multicore</pkg> package by Urbanek provides a way of running parallel
-        computations in R on machines with multiple cores or CPUs. 
+      <li>The <pkg>multicore</pkg> package by Urbanek provides a way of
+        running parallel computations in R on machines with multiple cores or
+        CPUs by making use of operating system
+        facilities. The <rforge>doSMP</rforge> package on R-Forge complements
+        this for Windows systems where <pkg>multicore</pkg> cannot be used.
       </li>
       <li>The R/parallel package by Vera, Jansen and Suppi offers a C++-based master-slave dispatch
         mechanism for parallel execution (<a href="http://www.rparallel.org/">link</a>)
@@ -377,7 +382,7 @@
       <li>
 	The <pkg>Rcpp</pkg> package by Eddelbuettel and Francois offers a
         number of C++ clases that makes transferring R objects to C++
-        functions (and back) easier, and the <rforge>RInside</rforge> package
+        functions (and back) easier, and the <pkg>RInside</pkg> package
         by the same authors allows easy embedding of R itself into C++
         applications for faster and more direct data transfer.
       </li>
@@ -453,6 +458,7 @@
     <pkg>Rcpp</pkg>
     <pkg>Rdsm</pkg>
     <pkg>rgenoud</pkg>
+    <pkg>RInside</pkg>
     <pkg>rJava</pkg>
     <pkg>rlecuyer</pkg>
     <pkg priority="core">Rmpi</pkg>
@@ -478,7 +484,7 @@
     <a href="http://www.jstatsoft.org/v31/i01/">Schmidberger, Morgan, Eddelbuettel, Yu, Tierney and Mansmann (2009) paper on 'State of the Art in Parallel Computing with R'</a>
     <a href="http://www.stat.uiowa.edu/~luke/R/experimental/">Luke Tierney's code directory for pnmath and pnmath0</a>
     <rforge>biocep-distrib</rforge>
-    <rforge>RInside</rforge>
+    <rforge>doSMP</rforge>
     <bioc>affyPara</bioc>
     <bioc>puma</bioc>
     <gcode>romp</gcode>
