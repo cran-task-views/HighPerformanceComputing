@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2011-02-22</version>
+   <version>2011-05-11</version>
 
   <info>
     <p>
@@ -217,11 +217,6 @@
 	(MPI, NWS etc) to parallelized cross-validation and bootstrap characterizations of predictive models.
       </li>
       <li>
-	The <pkg>multtest</pkg> package by Pollard et al. can
-	use <pkg>snow</pkg>, <pkg>Rmpi</pkg> or <pkg>rpvm</pkg> for
-	resampling-based testing of multiple hypothesis.
-      </li>
-      <li>
 	The <pkg>maanova</pkg> package by Wu can use <pkg>snow</pkg>
 	and <pkg>Rmpi</pkg> for the analysis of micro-array experiments.
       </li>
@@ -246,6 +241,11 @@
       <li>
 	The <pkg>bcp</pkg> package by Erdman and Emerson for the bayesian
 	analysis of change points can use <pkg>nws</pkg> for parallelized operations.
+      </li>
+      <li>
+	The <bioc>multtest</bioc> package by Pollard et al. on Bioconductor can
+	use <pkg>snow</pkg>, <pkg>Rmpi</pkg> or <pkg>rpvm</pkg> for
+	resampling-based testing of multiple hypothesis.
       </li>
       <li>
 	The <pkg>BARD</pkg> package by Altman for better automated redistring,
@@ -447,7 +447,6 @@
     <pkg>mapReduce</pkg>
     <pkg>Matching</pkg>
     <pkg>multicore</pkg>
-    <pkg>multtest</pkg>
     <pkg>nws</pkg>
     <pkg>orloca</pkg>
     <pkg>papply</pkg>
@@ -486,6 +485,7 @@
     <a href="http://www.stat.uiowa.edu/~luke/R/experimental/">Luke Tierney's code directory for pnmath and pnmath0</a>
     <rforge>biocep-distrib</rforge>
     <bioc>affyPara</bioc>
+    <bioc>multtest</bioc>
     <bioc>puma</bioc>
     <gcode>romp</gcode>
     <gcode>bugsparallel</gcode>
