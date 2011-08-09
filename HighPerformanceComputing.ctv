@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2011-07-29</version>
+   <version>2011-08-08</version>
 
   <info>
     <p>
@@ -305,12 +305,13 @@
     </p>
     <ul>	     
       <li>
-        The <pkg>gputools</pkg> package by Buckner provides several common
-        data-mining algorithms which are implemented using a mixture of
-        nVidia's CUDA langauge and cublas library. Given a computer with
-        an nVidia GPU these functions may be substantially more efficient
-        than native R routines.  The <pkg>rpud</pkg> package provides an
-        optimised distance metric for NVidia-based GPUs.
+        The <pkg>gputools</pkg> package by Buckner and Seligman
+        provides several common data-mining algorithms which are
+        implemented using a mixture of nVidia's CUDA langauge and
+        cublas library. Given a computer with an nVidia GPU these
+        functions may be substantially more efficient than native R
+        routines.  The <pkg>rpud</pkg> package provides an optimised
+        distance metric for NVidia-based GPUs.
       </li>
       <li>
         The <pkg>cudaBayesreg</pkg> package by da Silva implements
@@ -330,6 +331,12 @@
 	The <pkg>gcbd</pkg> package implements a benchmarking framework for
 	BLAS and GPUs (using <pkg>gputools</pkg>).
       </li>
+      <li>
+	The <pkg>OpenCL</pkg> package provides an interface from R to
+	OpenCL permitting hardware- and vendor neutral interfaces to
+	GPU programming.
+      </li>
+
     </ul>
 
     <p>
@@ -452,6 +459,7 @@
     <pkg>multicore</pkg>
     <pkg>nws</pkg>
     <pkg>orloca</pkg>
+    <pkg>OpenCL</pkg>
     <pkg>papply</pkg>
     <pkg>partDSA</pkg>
     <pkg>peperr</pkg>
