@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2011-08-08</version>
+   <version>2011-11-02</version>
 
   <info>
     <p>
@@ -265,9 +265,7 @@
       <li>
 	The <pkg>varSelRF</pkg> package by Diaz-Uriarte can use <pkg>snow</pkg>
 	and <pkg>Rmpi</pkg> for parallelized use of variable selection via
-	random forests; and the <pkg>ADaCGH</pkg> package by Diaz-Uriarte and Rueda
-	can use <pkg>Rmpi</pkg> and <pkg>papply</pkg> for parallelized
-	analysis of array CGH data.
+	random forests.
       </li>
       <li>
 	The <pkg>bcp</pkg> package by Erdman and Emerson for the bayesian
@@ -449,7 +447,6 @@
   </info>
 
   <packagelist>
-    <pkg>ADaCGH</pkg>
     <pkg>BARD</pkg>
     <pkg>batch</pkg>
     <pkg>bcp</pkg>
