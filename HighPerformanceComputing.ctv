@@ -41,12 +41,12 @@
       unchanged (apart from changing any references to their namespaces
       to a reference to parallel, and links explicitly to multicore or
       snow on help pages).
-      <br>
+      <br/>
 
       The <pkg>parallel</pkg> package also contains support for multiple 
       RNG streams following L'Ecuyer et al (2002), with support for 
       both mclapply and snow clusters.  
-      <br>
+      <br/>
 
       The version released for R 2.14.0 contains base functionality:
       higher-level convenience functions are planned for later R releases.
