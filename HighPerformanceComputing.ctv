@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2012-02-12</version>
+   <version>2012-02-17</version>
 
   <info>
     <p>
@@ -367,7 +367,11 @@
 	OpenCL permitting hardware- and vendor neutral interfaces to
 	GPU programming.
       </li>
-
+      <li>
+        The <pkg>WideLM</pkg> package use CUDA (4.1 or greater) to fit
+        many 'skinny' regression models simultaneously from a single
+        data set.
+      </li>
     </ul>
 
     <p>
@@ -516,6 +520,7 @@
     <pkg>taskPR</pkg>
     <pkg>tm</pkg>
     <pkg>varSelRF</pkg>
+    <pkg>WideLM</pkg>
   </packagelist>
 
   <links>
