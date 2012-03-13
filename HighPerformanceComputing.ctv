@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2012-02-17</version>
+   <version>2012-03-13</version>
 
   <info>
     <p>
@@ -118,6 +118,9 @@
 	computing environment, both on multicore machine and across the network
 	by providing facilities inspired from distributed shared memory
 	programming.
+      </li>
+      <li>The <pkg>harvestr</pkg> package provides helper functions
+        for (reproducible) simulations.
       </li>
     </ul>
 
@@ -482,6 +485,7 @@
     <pkg>gputools</pkg>
     <pkg>GridR</pkg>
     <pkg>HadoopStreaming</pkg>
+    <pkg>harvestr</pkg>
     <pkg>inline</pkg>
     <pkg>latentnet</pkg>
     <pkg>lga</pkg>
