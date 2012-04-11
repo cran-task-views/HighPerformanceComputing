@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2012-04-10</version>
+   <version>2012-04-11</version>
 
   <info>
     <p>
@@ -278,8 +278,7 @@
 	resampling-based testing of multiple hypothesis.
       </li>
       <li>
-	The <pkg>BARD</pkg> package by Altman for better automated redistring,
-	the <pkg>GAMBoost</pkg> package by Binder for <code>glm</code>
+	The <pkg>GAMBoost</pkg> package by Binder for <code>glm</code>
 	and <code>gam</code> model fitting via boosting using b-splines,
 	the <pkg>Geneland</pkg> package by Estoup, Guillot and Santos for
 	structure detection from multilocus genetic data,
@@ -463,7 +462,6 @@
   </info>
 
   <packagelist>
-    <pkg>BARD</pkg>
     <pkg>batch</pkg>
     <pkg>bcp</pkg>
     <pkg>biglars</pkg>
