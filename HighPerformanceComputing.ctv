@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2012-04-16</version>
+   <version>2012-04-19</version>
 
   <info>
     <p>
@@ -58,9 +58,9 @@
     <ul>	     
       <li>Several packages provide the communications layer required for parallel
 	computing. The first package in this area was
-	rpvm by Li and Rossini which uses the PVM (Parallel
-        Virtual Machine) standard and libraries. rpvm is no
-        longer actively maintained and archived on CRAN.
+	rpvm by Li and Rossini which uses the PVM (Parallel Virtual
+	Machine) standard and libraries. rpvm is no longer actively
+	maintained, but available from its CRAN archive directory.
       </li>
       <li>In recent years, the
         alternative MPI (Message Passing Interface) standard has become the
