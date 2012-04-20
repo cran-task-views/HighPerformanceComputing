@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2012-04-19</version>
+   <version>2012-04-20</version>
 
   <info>
     <p>
@@ -324,12 +324,6 @@
 	OpenBUGS; parallel computing is supported via the <pkg>snow</pkg>
 	package.
       </li>
-      <li>
-	The <pkg>mapReduce</pkg> package by Brown provides a simple framework
-	for parallel computations following the Google mapReduce approach. It
-	provides a pure R implementation,  a syntax following the mapReduce
-	paper and a flexible and parallelizable back end. 
-      </li>
       <li>The <pkg>pmclust</pkg> package utilizes unsupervised model-based
         clustering for high dimensional (ultra) large data. The package uses
 	<pkg>Rmpi</pkg> to perform a parallel version of the EM algorithm for
@@ -494,7 +488,6 @@
     <pkg>latentnet</pkg>
     <pkg>lga</pkg>
     <pkg>magma</pkg>
-    <pkg>mapReduce</pkg>
     <pkg>Matching</pkg>
     <pkg>multicore</pkg>
     <pkg>nws</pkg>
