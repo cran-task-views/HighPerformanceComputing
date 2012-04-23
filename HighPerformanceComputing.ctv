@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2012-04-20</version>
+   <version>2012-04-22</version>
 
   <info>
     <p>
@@ -182,13 +182,28 @@
         or Cloud computing. It is under active development.
       </li>
       <li>
-	The RHIPE package by Guha profides an interface between R and Hadoop
-	for a Map/Reduce programming framework. (<a href="http://ml.stat.purdue.edu/rhipe">link</a>)
-      </li>
-      <li>
         The <pkg>xgrid</pkg> package provides functions to use Apple Xgrid clusters from within R.
       </li>
     </ul>
+
+
+    <p>
+    <strong>Parallel computing: Hadoop</strong>
+    </p>
+    <ul>	     
+      <li>
+	The RHIPE package by Guha provides an interface between R and Hadoop
+	for a Map/Reduce programming framework. (<a href="http://ml.stat.purdue.edu/rhipe">link</a>)
+      </li>
+      <li>
+	The rmr package by Revolution Analytics also provides an interface between R and Hadoop
+	for a Map/Reduce programming framework. (<a href="https://github.com/RevolutionAnalytics/RHadoop/wiki/rmr">link</a>)
+      </li>
+      <li>
+	A related package, segue package by Long, permits easy execution of embarassingly parallel task on Elastic Map Reduce (EMR) at Amazon.
+	(<a href="http://code.google.com/p/segue/">link</a>)
+      </li>
+    </ul>	     
 
     <p>
     <strong>Parallel computing: Random numbers</strong>
