@@ -4,14 +4,14 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2012-05-05</version>
+   <version>2012-05-22</version>
 
   <info>
     <p>
       This CRAN task view contains a list of packages, grouped by topic, that
       are useful for high-performance computing (HPC) with R.  In this context, we
       are defining 'high-performance computing' rather loosely as just about anything
-      related to pushing R a littler further: using compiled code,
+      related to pushing R a little further: using compiled code,
       parallel computing (in both explicit and implicit modes), working with
       large objects as well as profiling. 
     </p>
