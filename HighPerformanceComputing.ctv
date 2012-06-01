@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2012-05-22</version>
+   <version>2012-06-01</version>
 
   <info>
     <p>
@@ -253,6 +253,14 @@
         The <pkg>batch</pkg> package by Hoffmann can launch parallel computing
         requests onto a cluster and gather results.
       </li>
+      <li>
+	The <pkg>BatchJobs</pkg> package provides Map, Reduce and
+	Filter variants to manage R jobs and their results on batch
+	computing systems like PBS/Torque, LSF and Sun Grid
+	Engine. Multicore and SSH systems are also supported. The
+	<pkg>BatchExperiments</pkg> package extends it with an
+	abstraction layer for running statistical experiments.
+      </li>
     </ul>
 
     <p>
@@ -470,6 +478,8 @@
 
   <packagelist>
     <pkg>batch</pkg>
+    <pkg>BatchJobs</pkg>
+    <pkg>BatchExperiments</pkg>
     <pkg>bcp</pkg>
     <pkg>biglars</pkg>
     <pkg>biglm</pkg>
