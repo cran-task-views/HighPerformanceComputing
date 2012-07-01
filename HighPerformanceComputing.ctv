@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2012-06-01</version>
+   <version>2012-07-01</version>
 
   <info>
     <p>
@@ -87,10 +87,7 @@
 	alternative to <pkg>snow</pkg>. Functions can be used in sequential or
 	parallel mode.
       </li>
-      <li>The <pkg>papply</pkg> package by Currie provided a subset of the
-        <pkg>Rmpi</pkg> functionality, but is no longer actively maintained either.
-      </li>
-      <li>The <pkg>biopara</pkg> package by Lazar and Schoenfeld offers socket-based parallel
+     <li>The <pkg>biopara</pkg> package by Lazar and Schoenfeld offers socket-based parallel
         execution with some support for load-balancing and fault-tolerance.
       </li>
       <li>The <pkg>taskPR</pkg> package by Samatova et al. builds on top of LAM/MPI and offers 
@@ -515,7 +512,6 @@
     <pkg>nws</pkg>
     <pkg>orloca</pkg>
     <pkg>OpenCL</pkg>
-    <pkg>papply</pkg>
     <pkg>partDSA</pkg>
     <pkg>peperr</pkg>
     <pkg>pmclust</pkg>
