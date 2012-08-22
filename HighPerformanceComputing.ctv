@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2012-07-01</version>
+   <version>2012-08-21</version>
 
   <info>
     <p>
@@ -26,12 +26,12 @@
       view to the <a href="mailto:Dirk.Eddelbuettel@R-project.org">task view maintainer</a>.
     </p>
     <p>
-      Suggestions and corrections by Achim Zeileis, Markus Schmidberger,
-      Martin Morgan, Max Kuhn, Tomas Radivoyevitch, Jochen Knaus, Tobias
-      Verbeke, Hao Yu, David Rosenberg, Marco Enea, Ivo Welch and Jay Emerson
-      are gratefully acknowledged.
+      Suggestions and corrections by Achim Zeileis, Markus
+      Schmidberger, Martin Morgan, Max Kuhn, Tomas Radivoyevitch,
+      Jochen Knaus, Tobias Verbeke, Hao Yu, David Rosenberg, Marco
+      Enea, Ivo Welch and Jay Emerson (as well as other I may have
+      forgotten to add here) are gratefully acknowledged.
     </p>
-
     <p>
       <strong>Direct support in R is starting with release 2.14.0</strong> 
       which includes a new package <strong>parallel</strong> incorporating 
@@ -564,6 +564,7 @@
     <a href="http://icl.cs.utk.edu/magma/">Magma: Matrix Algebra on GPU and Multicore architectures</a>
     <a href="http://shop.oreilly.com/product/0636920021421.do">Parallel R: Data Analysis in the Distributed World"</a>
     <a href="http://thirteen-01.stat.iastate.edu/snoweye/hpsc/">High Performance Statistical Computing with Rmpi</a>
+    <a href="http://heather.cs.ucdavis.edu/~matloff/rth.html">Rth: Parallel R through Thrust</a>
   </links>
 
 </CRANTaskView>
