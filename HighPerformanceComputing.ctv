@@ -73,7 +73,7 @@
         maintenance mode, and new development is focussed on Open MPI.
       </li>
       <li>
-        The <pkg>pdbMPI</pkg> package provides S4 classes to directly interface 
+        The <pkg>pbdMPI</pkg> package provides S4 classes to directly interface 
         MPI in order to support the Single Program/Multiple Data (SPMD) parallel 
         programming style which is particularly useful for batch parallel execution.
       </li>
