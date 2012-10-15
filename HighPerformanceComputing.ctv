@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2012-10-14</version>
+   <version>2012-10-15</version>
 
   <info>
     <p>
@@ -80,7 +80,9 @@
 	packages (mainly BLACS, PBLAS, and ScaLAPACK) in double precision based 
 	on ScaLAPACK version 2.0.2. 
 	The <pkg>pbdBASE</pkg> builds on these and provides the core classes
-        and methods for distributed data types for "Programming with Big Data".
+        and methods for distributed data types upon which the 
+	<pkg>pbdDMAT<pkg> builds to provide distributed data types for "Programming 
+	with Big Data".
       </li>
       <li>An alternative is provided by the <pkg>nws</pkg> (NetWorkSpaces)
         packages from REvolution Computing.  It is the successor to the
@@ -523,6 +525,8 @@
     <pkg>orloca</pkg>
     <pkg>OpenCL</pkg>
     <pkg>partDSA</pkg>
+    <pkg>pbdBASE</pkg>
+    <pkg>pbdDMAT</pkg>
     <pkg>pbdMPI</pkg>
     <pkg>pbdSLAP</pkg>
     <pkg>peperr</pkg>
