@@ -81,7 +81,7 @@
 	on ScaLAPACK version 2.0.2. 
 	The <pkg>pbdBASE</pkg> builds on these and provides the core classes
         and methods for distributed data types upon which the 
-	<pkg>pbdDMAT<pkg> builds to provide distributed data types for "Programming 
+	<pkg>pbdDMAT</pkg> builds to provide distributed data types for "Programming 
 	with Big Data".
       </li>
       <li>An alternative is provided by the <pkg>nws</pkg> (NetWorkSpaces)
