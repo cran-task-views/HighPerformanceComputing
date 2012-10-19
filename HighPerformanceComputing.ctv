@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2012-10-15</version>
+   <version>2012-10-18</version>
 
   <info>
     <p>
@@ -402,6 +402,11 @@
         many 'skinny' regression models simultaneously from a single
         data set.
       </li>
+      <li>
+        The <pkg>HiPLARM</pkg> package provide High-Performance Linear
+        Algebra for R using multi-core and/or GPU support using the
+        PLASMA / MAGMA libraries from UTK, CUDA, and accelerated BLAS.
+      </li>
     </ul>
 
     <p>
@@ -516,6 +521,7 @@
     <pkg>GridR</pkg>
     <pkg>HadoopStreaming</pkg>
     <pkg>harvestr</pkg>
+    <pkg>HiPLARM</pkg>
     <pkg>inline</pkg>
     <pkg>lga</pkg>
     <pkg>magma</pkg>
