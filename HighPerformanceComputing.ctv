@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2012-10-26</version>
+   <version>2012-10-27</version>
 
   <info>
     <p>
@@ -29,8 +29,8 @@
       Suggestions and corrections by Achim Zeileis, Markus
       Schmidberger, Martin Morgan, Max Kuhn, Tomas Radivoyevitch,
       Jochen Knaus, Tobias Verbeke, Hao Yu, David Rosenberg, Marco
-      Enea, Ivo Welch and Jay Emerson (as well as other I may have
-      forgotten to add here) are gratefully acknowledged.
+      Enea, Ivo Welch, Jay Emerson, Wei-Chen Chen, Bill Cleveland 
+      (as well as others I may have forgotten to add here) are gratefully acknowledged. 
     </p>
     <p>
       <strong>Direct support in R is starting with release 2.14.0</strong> 
@@ -201,8 +201,9 @@
     </p>
     <ul>	     
       <li>
-	The RHIPE package by Guha provides an interface between R and Hadoop
-	for a Map/Reduce programming framework. (<a href="http://www.datadr.org">link</a>)
+	The RHIPE package, started by Saptarshi Guha and now developed by a core team via GitHub,   
+        provides an interface between R and Hadoop for analysis of large complex data wholly from 
+	within R using the Divide and Recombine approach to big data. (<a href="http://www.datadr.org">link</a>)
       </li>
       <li>
 	The rmr package by Revolution Analytics also provides an interface between R and Hadoop
