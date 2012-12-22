@@ -131,11 +131,6 @@
       <li>The <pkg>harvestr</pkg> package provides helper functions
         for (reproducible) simulations.
       </li>
-      <li>The <pkg>cloudRmpi</pkg> (and <pkg>cloudRmpiJars</pkg>) packages help 
-          running MPI tasks on Amazon EC2 cloud services by allowing to launch and 
-          manage a cloud-based network, and to access the R session on the master node 
-	  (using <pkg>rreval</pkg>). 
-      </li>
     </ul>
 
     <p>
@@ -503,8 +498,6 @@
     <pkg>bnlearn</pkg>
     <pkg>caret</pkg>
     <pkg>ccems</pkg>
-    <pkg>cloudRmpi</pkg> 
-    <pkg>cloudRmpiJars</pkg>
     <pkg>cudaBayesreg</pkg>
     <pkg>dclone</pkg>
     <pkg>doMC</pkg>
@@ -549,7 +542,6 @@
     <pkg>rlecuyer</pkg>
     <pkg priority="core">Rmpi</pkg>
     <pkg>rpud</pkg>
-    <pkg>rreval</pkg>
     <pkg>Rsge</pkg>
     <pkg>rsprng</pkg>
     <pkg>scaleboot</pkg>
