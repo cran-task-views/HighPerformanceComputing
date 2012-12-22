@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2012-10-27</version>
+   <version>2012-12-22</version>
 
   <info>
     <p>
@@ -415,7 +415,7 @@
     </p>
     <ul>
       <li>The <pkg>biglm</pkg> package by Lumley uses incremental computations to
-        offers <code>lm()</code> and <code>glm()</code> functionality to 
+        offer <code>lm()</code> and <code>glm()</code> functionality to 
         data sets stored outside of R's main memory.
       </li>
       <li>The <pkg>ff</pkg> package by Adler et al. offers file-based access to data sets
@@ -426,7 +426,7 @@
         as matrices in memory (as well as via files) and uses external
         pointer objects to refer to them.  This permits transparent access
         from R without bumping against R's internal memory limits.  Several R
-        processes on the same computer can also shared big memory objects.
+        processes on the same computer can also share big memory objects.
       </li>
       <li>A large number of database packages, and database-alike packages
         (such as <pkg>sqldf</pkg> by Grothendieck and <pkg>data.table</pkg>
