@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2012-12-22</version>
+   <version>2012-12-27</version>
 
   <info>
     <p>
@@ -402,6 +402,11 @@
         The <pkg>HiPLARM</pkg> package provide High-Performance Linear
         Algebra for R using multi-core and/or GPU support using the
         PLASMA / MAGMA libraries from UTK, CUDA, and accelerated BLAS.
+      </li>
+      <li>
+        The <pkg>permGPU</pkg> package computes permutation resampling
+        inference in the context of RNA microarray studies on the GPU,
+        it uses CUDA (>= 4.5)
       </li>
     </ul>
 
