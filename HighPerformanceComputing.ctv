@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2013-01-11</version>
+   <version>2013-01-14</version>
 
   <info>
     <p>
@@ -294,8 +294,8 @@
 	random forests.
       </li>
       <li>
-	The <pkg>bcp</pkg> package by Erdman and Emerson for the bayesian
-	analysis of change points can use <pkg>nws</pkg> for parallelized operations.
+	The <pkg>bcp</pkg> package by Erdman and Emerson for the Bayesian
+	analysis of change points can use <pkg>foreach</pkg> for parallelized operations.
       </li>
       <li>
 	The <bioc>multtest</bioc> package by Pollard et al. on Bioconductor can
