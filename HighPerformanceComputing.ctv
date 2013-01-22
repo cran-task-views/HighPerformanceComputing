@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2013-01-14</version>
+   <version>2013-01-12</version>
 
   <info>
     <p>
@@ -102,13 +102,10 @@
      <li>The <pkg>biopara</pkg> package by Lazar and Schoenfeld offers socket-based parallel
         execution with some support for load-balancing and fault-tolerance.
       </li>
-      <li>The Simple Parallel R INTerface (SPRINT) package by Hill et al.
-	(<a href="http://forge.nesc.ac.uk/projects/sprint/">link</a>, 
-	<a href="ttp://www.biomedcentral.com/1471-2105/9/558">paper</a>)
-	provides a prototype framework that allows the addition of
-	parallelised functions to R for easy exploitation of HPC
-	systems. Currently only a parallised correlation calculation is
-	provided.
+      <li>The <pkg>sprint</pkg> package (for "Simple Parallel R INTerface") 
+	provides a parallel framework for R containing correlation, partitioning 
+	around medoids, apply, permutation tesing, bootstrapping, random forest, 
+	rank product and more.
       </li>
       <li>The <pkg>foreach</pkg> package allows general iteration over
 	elements in a collection without the use of an explicit loop
@@ -164,8 +161,7 @@
         mechanism for parallel execution (<a href="http://www.rparallel.org/">link</a>)
       </li>
       <li>
-	The SPRINT package by Hill adds another parallel framework to R 
-	(<a href="http://forge.nesc.ac.uk/projects/sprint">link</a>).
+	The <pkg>sprint</pkg> adds another parallel framework to R.
       </li>
     </ul>
 
@@ -551,6 +547,7 @@
     <pkg>snowfall</pkg>
     <pkg>snowFT</pkg>
     <pkg>speedglm</pkg>
+    <pkg>sprint</pkg>
     <pkg>sqldf</pkg>
     <pkg>STAR</pkg>
     <pkg>tm</pkg>
