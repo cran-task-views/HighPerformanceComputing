@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2013-01-12</version>
+   <version>2013-01-29</version>
 
   <info>
     <p>
@@ -488,6 +488,7 @@
     <pkg>batch</pkg>
     <pkg>BatchJobs</pkg>
     <pkg>BatchExperiments</pkg>
+    <pkg>bayesm</pkg>
     <pkg>bcp</pkg>
     <pkg>biglars</pkg>
     <pkg>biglm</pkg>
@@ -501,6 +502,7 @@
     <pkg>doMC</pkg>
     <pkg>doMPI</pkg>
     <pkg>doRedis</pkg>
+    <pkg>doRNG</pkg>
     <pkg>doSNOW</pkg>
     <pkg>data.table</pkg>
     <pkg>ff</pkg>
@@ -528,6 +530,7 @@
     <pkg>pbdMPI</pkg>
     <pkg>pbdSLAP</pkg>
     <pkg>peperr</pkg>
+    <pkg>permGPU</pkg>
     <pkg>pmclust</pkg>
     <pkg>profr</pkg>
     <pkg>proftools</pkg>
@@ -540,6 +543,7 @@
     <pkg>rlecuyer</pkg>
     <pkg priority="core">Rmpi</pkg>
     <pkg>rpud</pkg>
+    <pkg>rredis</pkg>
     <pkg>Rsge</pkg>
     <pkg>rsprng</pkg>
     <pkg>scaleboot</pkg>
@@ -553,6 +557,7 @@
     <pkg>tm</pkg>
     <pkg>varSelRF</pkg>
     <pkg>WideLM</pkg>
+    <pkg>xgrid</pkg>
   </packagelist>
 
   <links>
