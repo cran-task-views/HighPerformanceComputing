@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2013-01-29</version>
+   <version>2013-02-15</version>
 
   <info>
     <p>
@@ -117,13 +117,9 @@
 	above), <pkg>doMPI</pkg> (using <pkg>Rmpi</pkg>) packages and
 	<pkg>doRedis</pkg> (using <pkg>rredis</pkg>) packages.
       </li>
-      <li>The <pkg>Rdsm</pkg> package provides a threads-like parallel
-	computing environment, both on multicore machine and across the network
-	by providing facilities inspired from distributed shared memory
-	programming.
-      </li>
-      <li>The <pkg>harvestr</pkg> package provides helper functions
-        for (reproducible) simulations.
+      <li>The <pkg>bigrf</pkg> package provides a Random Forests
+        implementation with support for parellel execution and large
+        memory. 
       </li>
     </ul>
 
@@ -162,6 +158,11 @@
       </li>
       <li>
 	The <pkg>sprint</pkg> adds another parallel framework to R.
+      </li>
+      <li>The <pkg>Rdsm</pkg> package provides a threads-like parallel
+	computing environment, both on multicore machine and across the network
+	by providing facilities inspired from distributed shared memory
+	programming.
       </li>
     </ul>
 
@@ -348,6 +349,9 @@
 	<pkg>Rmpi</pkg> to perform a parallel version of the EM algorithm for
 	finite mixture Gaussian models.
       </li>
+      <li>The <pkg>harvestr</pkg> package provides helper functions
+        for (reproducible) simulations.
+      </li>
     </ul>
 
     <p>
@@ -442,6 +446,10 @@
 	to support large-than-memory datasets for least-angle regression,
 	lasso and stepwise regression.
       </li>
+      <li>The <pkg>bigrf</pkg> package provides a Random Forests
+        implementation with support for parellel execution and large
+        memory. 
+      </li>
     </ul>
 
     <p>
@@ -493,6 +501,7 @@
     <pkg>biglars</pkg>
     <pkg>biglm</pkg>
     <pkg>bigmemory</pkg>
+    <pkg>bigrf</pkg>
     <pkg>biopara</pkg>
     <pkg>bnlearn</pkg>
     <pkg>caret</pkg>
