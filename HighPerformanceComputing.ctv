@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2013-03-07</version>
+   <version>2013-03-15</version>
 
   <info>
     <p>
@@ -247,10 +247,6 @@
         The sfCluster package by Knaus can be used with <pkg>snowfall</pkg>.
 	(<a href="http://www.imbi.uni-freiburg.de/parallel/">link</a>) but is
 	currently limited to LAM/MPI. 
-      </li>
-      <li>
-        The <pkg>Rsge</pkg> package by Bode offers an interface to the Sun Grid
-        Engine batch-queuing system.
       </li>
       <li>
         The <pkg>batch</pkg> package by Hoffmann can launch parallel computing
@@ -558,7 +554,6 @@
     <pkg priority="core">Rmpi</pkg>
     <pkg>rpud</pkg>
     <pkg>rredis</pkg>
-    <pkg>Rsge</pkg>
     <pkg>rsprng</pkg>
     <pkg>scaleboot</pkg>
     <pkg priority="core">snow</pkg>
