@@ -29,7 +29,7 @@
       Suggestions and corrections by Achim Zeileis, Markus
       Schmidberger, Martin Morgan, Max Kuhn, Tomas Radivoyevitch,
       Jochen Knaus, Tobias Verbeke, Hao Yu, David Rosenberg, Marco
-      Enea, Ivo Welch, Jay Emerson, Wei-Chen Chen, Bill Cleveland 
+      Enea, Ivo Welch, Jay Emerson, Wei-Chen Chen, Bill Cleveland, Ross Boylan 
       (as well as others I may have forgotten to add here) are gratefully acknowledged. 
     </p>
     <p>
@@ -38,9 +38,8 @@
       (slightly revised) copies of packages <pkg>multicore</pkg> and 
       <pkg>snow</pkg> (but excluding MPI, PVM and NWS clusters).  Code written to
       use the higher-level API functions in those packages should work
-      unchanged (apart from changing any references to their namespaces
-      to a reference to parallel, and links explicitly to multicore or
-      snow on help pages).
+      unchanged (apart from changing any references in namespaces and help files 
+      from snow or multicore to parallel). 
       <br/>
 
       The <strong>parallel</strong> package also contains support for multiple 
