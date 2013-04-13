@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2013-03-23</version>
+   <version>2013-04-12</version>
 
   <info>
     <p>
@@ -81,7 +81,11 @@
 	The <pkg>pbdBASE</pkg> builds on these and provides the core classes
         and methods for distributed data types upon which the 
 	<pkg>pbdDMAT</pkg> builds to provide distributed dense matrices for "Programming 
-	with Big Data".
+	with Big Data". The <pkg>pbdNCDF4</pkg> package permits
+	mulitple process to write to the same file (without manual
+	synchronization) and supports terabyte-sized files.  Finally,
+	the <pkg>pbdDEMP</pkg> package provides examples for these
+	packages, and a detailed vignette.
       </li>
       <li>An alternative is provided by the <pkg>nws</pkg> (NetWorkSpaces)
         packages from REvolution Computing.  It is the successor to the
@@ -545,8 +549,10 @@
     <pkg>OpenCL</pkg>
     <pkg>partDSA</pkg>
     <pkg>pbdBASE</pkg>
+    <pkg>pbdDEMO</pkg>
     <pkg>pbdDMAT</pkg>
     <pkg>pbdMPI</pkg>
+    <pkg>pbdNCDF4</pkg>
     <pkg>pbdSLAP</pkg>
     <pkg>peperr</pkg>
     <pkg>permGPU</pkg>
