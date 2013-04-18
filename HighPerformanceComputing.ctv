@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2013-04-12</version>
+   <version>2013-04-18</version>
 
   <info>
     <p>
@@ -84,7 +84,7 @@
 	with Big Data". The <pkg>pbdNCDF4</pkg> package permits
 	mulitple process to write to the same file (without manual
 	synchronization) and supports terabyte-sized files.  Finally,
-	the <pkg>pbdDEMP</pkg> package provides examples for these
+	the <pkg>pbdDEMO</pkg> package provides examples for these
 	packages, and a detailed vignette.
       </li>
       <li>An alternative is provided by the <pkg>nws</pkg> (NetWorkSpaces)
