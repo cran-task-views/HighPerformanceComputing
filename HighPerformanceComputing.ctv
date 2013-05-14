@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2013-04-18</version>
+   <version>2013-05-14</version>
 
   <info>
     <p>
@@ -357,7 +357,7 @@
       </li>
       <li>The <pkg>pmclust</pkg> package utilizes unsupervised model-based
         clustering for high dimensional (ultra) large data. The package uses
-	<pkg>Rmpi</pkg> to perform a parallel version of the EM algorithm for
+	<pkg>pbdMPI</pkg> to perform a parallel version of the EM algorithm for
 	finite mixture Gaussian models.
       </li>
       <li>The <pkg>harvestr</pkg> package provides helper functions
@@ -605,9 +605,9 @@
     <a href="https://gforge.nbic.nl/projects/rgpu/">rgpu project at nbic.nl</a>
     <a href="http://icl.cs.utk.edu/magma/">Magma: Matrix Algebra on GPU and Multicore architectures</a>
     <a href="http://shop.oreilly.com/product/0636920021421.do">Parallel R: Data Analysis in the Distributed World"</a>
-    <a href="http://thirteen-01.stat.iastate.edu/snoweye/hpsc/">High Performance Statistical Computing with Rmpi</a>
+    <a href="http://thirteen-01.stat.iastate.edu/snoweye/hpsc/">High Performance Statistical Computing for Data Intensive Research</a>
     <a href="http://heather.cs.ucdavis.edu/~matloff/rth.html">Rth: Parallel R through Thrust</a>
-    <a href="http://r-pbd.org">R Programming with Big Data</a>
+    <a href="http://r-pbd.org">Programming with Big Data in R</a>
     <a href="http://www.datadr.org">RHIPE</a>
   </links>
 
