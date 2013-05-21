@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2013-05-14</version>
+   <version>2013-05-21</version>
 
   <info>
     <p>
@@ -323,12 +323,9 @@
 	optimization using derivatives 
 	the <bioc>affyPara</bioc> package by Schmidberger, Vicedo and
 	Mansmann for parallel normalization of Affymetrix microarrays, 
-	the <bioc>puma</bioc> package by Pearson et al. which propagates
+	and the <bioc>puma</bioc> package by Pearson et al. which propagates
 	uncertainty into standard microarray analyses such as differential
 	expression
-	and
-	the <pkg>ccems</pkg> package for combinatorically complex equilibrium
-	model selection
 	all can use <pkg>snow</pkg> for parallelized operations using either
 	one of the MPI, PVM, NWS or socket protocols supported by <pkg>snow</pkg>.
       </li>
@@ -516,7 +513,6 @@
     <pkg>biopara</pkg>
     <pkg>bnlearn</pkg>
     <pkg>caret</pkg>
-    <pkg>ccems</pkg>
     <pkg>cudaBayesreg</pkg>
     <pkg>dclone</pkg>
     <pkg>doMC</pkg>
