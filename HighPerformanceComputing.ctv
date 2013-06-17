@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2013-05-21</version>
+   <version>2013-06-17</version>
 
   <info>
     <p>
@@ -29,17 +29,18 @@
       Suggestions and corrections by Achim Zeileis, Markus
       Schmidberger, Martin Morgan, Max Kuhn, Tomas Radivoyevitch,
       Jochen Knaus, Tobias Verbeke, Hao Yu, David Rosenberg, Marco
-      Enea, Ivo Welch, Jay Emerson, Wei-Chen Chen, Bill Cleveland, Ross Boylan 
+      Enea, Ivo Welch, Jay Emerson, Wei-Chen Chen, Bill Cleveland, 
+      Ross Boylan, and Ramon Diaz-Uriarte
       (as well as others I may have forgotten to add here) are gratefully acknowledged. 
     </p>
     <p>
-      <strong>Direct support in R is starting with release 2.14.0</strong> 
+      <strong>Direct support in R started with release 2.14.0</strong> 
       which includes a new package <strong>parallel</strong> incorporating 
       (slightly revised) copies of packages <pkg>multicore</pkg> and 
-      <pkg>snow</pkg> (but excluding MPI, PVM and NWS clusters).  Code written to
-      use the higher-level API functions in those packages should work
-      unchanged (apart from changing any references in namespaces and help files 
-      from snow or multicore to parallel). 
+      <pkg>snow</pkg>.  Some types of clusters are not handled directly by 
+      <pkg>parallel</pkg>. However, and as explained in the package vignette, the parts of
+      <pkg>parallel</pkg> which provide <pkg>snow</pkg>-like functions will
+      accept <pkg>snow</pkg> clusters including MPI clusters. 
       <br/>
 
       The <strong>parallel</strong> package also contains support for multiple 
