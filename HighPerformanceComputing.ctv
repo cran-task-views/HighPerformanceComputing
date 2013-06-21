@@ -38,8 +38,8 @@
       which includes a new package <strong>parallel</strong> incorporating 
       (slightly revised) copies of packages <pkg>multicore</pkg> and 
       <pkg>snow</pkg>.  Some types of clusters are not handled directly by 
-      <pkg>parallel</pkg>. However, and as explained in the package vignette, the parts of
-      <pkg>parallel</pkg> which provide <pkg>snow</pkg>-like functions will
+      the base package 'parallel'. However, and as explained in the package vignette, the parts of
+      parallel which provide <pkg>snow</pkg>-like functions will
       accept <pkg>snow</pkg> clusters including MPI clusters. 
       <br/>
 
