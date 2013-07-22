@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2013-07-01</version>
+   <version>2013-07-21</version>
 
   <info>
     <p>
@@ -453,6 +453,10 @@
         implementation with support for parellel execution and large
         memory. 
       </li>
+      <li>The <pkg>MonetDB.R</pkg> package allows R to access the MonetDB 
+         column-oriented, open source database system as a
+	 backend. 
+      </li>
     </ul>
 
     <p>
@@ -533,6 +537,7 @@
     <pkg>magma</pkg>
     <pkg>Matching</pkg>
     <pkg>mchof</pkg>
+    <pkg>MonetDB.R</pkg>
     <pkg>multicore</pkg>
     <pkg>nws</pkg>
     <pkg>orloca</pkg>
