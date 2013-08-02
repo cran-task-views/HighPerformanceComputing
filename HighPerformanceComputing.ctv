@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2013-07-21</version>
+   <version>2013-08-01</version>
 
   <info>
     <p>
@@ -83,10 +83,12 @@
         and methods for distributed data types upon which the 
 	<pkg>pbdDMAT</pkg> builds to provide distributed dense matrices for "Programming 
 	with Big Data". The <pkg>pbdNCDF4</pkg> package permits
-	mulitple process to write to the same file (without manual
-	synchronization) and supports terabyte-sized files.  Finally,
-	the <pkg>pbdDEMO</pkg> package provides examples for these
+	multiple processes to write to the same file (without manual
+	synchronization) and supports terabyte-sized files.
+	The <pkg>pbdDEMO</pkg> package provides examples for these
 	packages, and a detailed vignette.
+        The <pkg>pbdPROF</pkg> package profiles MPI communication SPMD code
+        via MPI profiling libraries, such as fpmpi, mpiP, or TAU.
       </li>
       <li>An alternative is provided by the <pkg>nws</pkg> (NetWorkSpaces)
         packages from REvolution Computing.  It is the successor to the
@@ -546,6 +548,7 @@
     <pkg>pbdBASE</pkg>
     <pkg>pbdDEMO</pkg>
     <pkg>pbdDMAT</pkg>
+    <pkg>pbdPROF</pkg>
     <pkg>pbdMPI</pkg>
     <pkg>pbdNCDF4</pkg>
     <pkg>pbdSLAP</pkg>
