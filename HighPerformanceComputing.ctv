@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2013-08-01</version>
+   <version>2013-10-03</version>
 
   <info>
     <p>
@@ -211,6 +211,20 @@
       <li>
 	A related package, segue package by Long, permits easy execution of embarassingly parallel task on Elastic Map Reduce (EMR) at Amazon.
 	(<a href="http://code.google.com/p/segue/">link</a>)
+      </li>
+      <li>
+        The <pkg>RProtoBuf</pkg> package provides an interface to
+        Google's language-neutral, platform-neutral, extensible
+        mechanism for serializing structured data.  This package can
+        be used in R code to read data streams from other systems in a
+        distributed MapReduce setting where data is serialized and
+        passed back and forth between tasks.
+      </li>
+      <li>
+        The <pkg>HistogramTools</pkg> package provides a number of
+        routines useful for the construction, aggregation,
+        manipulation, and plotting of large numbers of Histograms such
+        as those created by Mappers in a MapReduce application.
       </li>
     </ul>	     
 
@@ -533,6 +547,7 @@
     <pkg>HadoopStreaming</pkg>
     <pkg>harvestr</pkg>
     <pkg>HiPLARM</pkg>
+    <pkg>HistogramTools</pkg>
     <pkg>inline</pkg>
     <pkg>latentnet</pkg>
     <pkg>lga</pkg>
@@ -565,6 +580,7 @@
     <pkg>rJava</pkg>
     <pkg>rlecuyer</pkg>
     <pkg priority="core">Rmpi</pkg>
+    <pkg>RProtoBuf</pkg>
     <pkg>rpud</pkg>
     <pkg>rredis</pkg>
     <pkg>rsprng</pkg>
