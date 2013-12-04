@@ -378,7 +378,7 @@
       </li>
       <li>
         Nowadays, many packages can use the facilities offered by
-        the <pkg>parallel</pkg> (or <pkg>multicore</pkg>) package. One example 
+        the <strong>parallel</strong> (or <pkg>multicore</pkg>) package. One example 
         is <pkg>pls</pkg>
       </li>
     </ul>
