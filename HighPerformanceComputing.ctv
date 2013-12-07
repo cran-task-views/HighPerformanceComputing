@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2013-11-30</version>
+   <version>2013-12-06</version>
 
   <info>
     <p>
@@ -178,6 +178,9 @@
         The <pkg>RhpcBLASctl</pkg> detects the number of available
         BLAS cores, and permits explicit selection of the number of
         cores.
+      </li>
+      <li>
+        The <pkg>Rhpc</pkg> permits <code>*apply()</code> style dispatch via MPI.
       </li>
     </ul>
 
@@ -587,6 +590,7 @@
     <pkg>Rcpp</pkg>
     <pkg>Rdsm</pkg>
     <pkg>rgenoud</pkg>
+    <pkg>Rhpc</pkg>
     <pkg>RhpcBLASctl</pkg>
     <pkg>RInside</pkg>
     <pkg>rJava</pkg>
