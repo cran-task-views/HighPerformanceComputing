@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2013-12-06</version>
+   <version>2013-12-10</version>
 
   <info>
     <p>
@@ -108,11 +108,6 @@
      <li>The <pkg>biopara</pkg> package by Lazar and Schoenfeld offers socket-based parallel
         execution with some support for load-balancing and fault-tolerance.
       </li>
-      <li>The <pkg>sprint</pkg> package (for "Simple Parallel R INTerface") 
-	provides a parallel framework for R containing correlation, partitioning 
-	around medoids, apply, permutation tesing, bootstrapping, random forest, 
-	rank product and more.
-      </li>
       <li>The <pkg>foreach</pkg> package allows general iteration over
 	elements in a collection without the use of an explicit loop
 	counter. Using foreach without side effects also facilitates
@@ -161,9 +156,6 @@
       </li>
       <li>The R/parallel package by Vera, Jansen and Suppi offers a C++-based master-slave dispatch
         mechanism for parallel execution (<a href="http://www.rparallel.org/">link</a>)
-      </li>
-      <li>
-	The <pkg>sprint</pkg> adds another parallel framework to R.
       </li>
       <li>The <pkg>Rdsm</pkg> package provides a threads-like parallel
 	computing environment, both on multicore machine and across the network
@@ -605,7 +597,6 @@
     <pkg>snowfall</pkg>
     <pkg>snowFT</pkg>
     <pkg>speedglm</pkg>
-    <pkg>sprint</pkg>
     <pkg>sqldf</pkg>
     <pkg>STAR</pkg>
     <pkg>tm</pkg>
