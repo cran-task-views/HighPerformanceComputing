@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2013-12-10</version>
+   <version>2013-12-18</version>
 
   <info>
     <p>
@@ -180,9 +180,6 @@
     <strong>Parallel computing: Grid computing</strong>
     </p>
     <ul>	     
-      <li>The <pkg>GridR</pkg> package by Wegener et al. can be used in a grid computing
-        environment via a web service, via ssh or via Condor or Globus.
-      </li>
       <li>The multiR package by Grose was presented at useR! 2008 
 	but has not been released. It may offer a snow-style framework on a grid computing platform.
       </li>
@@ -548,7 +545,6 @@
     <pkg>gcbd</pkg>
     <pkg>Geneland</pkg>
     <pkg>gputools</pkg>
-    <pkg>GridR</pkg>
     <pkg>HadoopStreaming</pkg>
     <pkg>harvestr</pkg>
     <pkg>HiPLARM</pkg>
