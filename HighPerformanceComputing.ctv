@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2013-12-18</version>
+   <version>2014-03-07</version>
 
   <info>
     <p>
@@ -161,10 +161,6 @@
 	computing environment, both on multicore machine and across the network
 	by providing facilities inspired from distributed shared memory
 	programming.
-      </li>
-      <li>The <pkg>mchof</pkg> package provides convenient, consistent
-        parallel implementations of several commonly used higher-order
-        functions found in base R such as Filter or Reduce.
       </li>
       <li>
         The <pkg>RhpcBLASctl</pkg> detects the number of available
@@ -554,7 +550,6 @@
     <pkg>lga</pkg>
     <pkg>magma</pkg>
     <pkg>Matching</pkg>
-    <pkg>mchof</pkg>
     <pkg>MonetDB.R</pkg>
     <pkg>multicore</pkg>
     <pkg>nws</pkg>
