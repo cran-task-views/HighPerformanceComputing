@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2014-05-08</version>
+   <version>2014-05-14</version>
 
   <info>
     <p>
@@ -477,6 +477,9 @@
         hierarchical structure to store multiple scalable array-oriented
         data sets with metadata information.
       </li>
+      <li>The <pkg>ffbase</pkg> package by de Jonge et al adds basic
+        statistical functionality to the <pkg>ff</pkg> package.
+      </li>
     </ul>
 
     <p>
@@ -541,6 +544,7 @@
     <pkg>doSNOW</pkg>
     <pkg>data.table</pkg>
     <pkg>ff</pkg>
+    <pkg>ffbase</pkg>
     <pkg>foreach</pkg>
     <pkg>fork</pkg>
     <pkg>GAMBoost</pkg>
