@@ -222,6 +222,7 @@
       <li>
         The <pkg>toaster</pkg> package by Teradaya provides a set of tools to perform
         in-database analytics with the Teradata Aster platform (which is required).
+      </li>
     </ul>	     
 
     <p>
@@ -605,6 +606,7 @@
     <pkg>sqldf</pkg>
     <pkg>STAR</pkg>
     <pkg>tm</pkg>
+    <pkg>toaster</pkg>
     <pkg>varSelRF</pkg>
     <pkg>WideLM</pkg>
     <pkg>xgrid</pkg>
