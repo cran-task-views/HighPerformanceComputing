@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2014-05-31</version>
+   <version>2014-07-07</version>
 
   <info>
     <p>
@@ -514,13 +514,16 @@
       <li>The <pkg>profr</pkg> package by Wickham can visualize output from
 	the <code>Rprof</code> interface for profiling.
       </li>
-      <li>The <pkg>proftools</pkg> package by Tierney can also be used to analyse profiling output.
+      <li>The <pkg>proftools</pkg> package by Tierney, and the
+      <pkg>aprof</pkg> package by Visser, can also be used to analyse
+      profiling output. 
       </li>
     </ul>
 
   </info>
 
   <packagelist>
+    <pkg>aprof</pkg>
     <pkg>batch</pkg>
     <pkg>BatchJobs</pkg>
     <pkg>BatchExperiments</pkg>
