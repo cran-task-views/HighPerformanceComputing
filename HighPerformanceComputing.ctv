@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2014-07-27</version>
+   <version>2014-08-23</version>
 
   <info>
     <p>
@@ -187,9 +187,6 @@
       </li>
       <li>The <rforge>biocep-distrib</rforge> project by Chine offers a Java-based framework for local, Grid,
         or Cloud computing. It is under active development.
-      </li>
-      <li>
-        The <pkg>xgrid</pkg> package provides functions to use Apple Xgrid clusters from within R.
       </li>
     </ul>
 
@@ -612,7 +609,6 @@
     <pkg>toaster</pkg>
     <pkg>varSelRF</pkg>
     <pkg>WideLM</pkg>
-    <pkg>xgrid</pkg>
   </packagelist>
 
   <links>
