@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2014-09-05</version>
+   <version>2014-09-19</version>
 
   <info>
     <p>
@@ -292,9 +292,7 @@
       <li>
 	The <pkg>pvclust</pkg> package by Suzuki and Shimodaira can use <pkg>snow</pkg>
 	and <pkg>Rmpi</pkg> for hierarchical clustering via multiscale
-	bootstraps; and the <pkg>scaleboot</pkg> package by Shimodaira can
-	use <pkg>pvclust</pkg>, <pkg>snow</pkg> and <pkg>Rmpi</pkg> for
-	computing approximately unbiased p-values via multiscale bootstraps.
+	bootstraps.
       </li>
       <li>
 	The <pkg>tm</pkg> package by Feinerer can use <pkg>snow</pkg>
@@ -592,7 +590,6 @@
     <pkg>rpud</pkg>
     <pkg>rredis</pkg>
     <pkg>rsprng</pkg>
-    <pkg>scaleboot</pkg>
     <pkg priority="core">snow</pkg>
     <pkg>snowfall</pkg>
     <pkg>snowFT</pkg>
