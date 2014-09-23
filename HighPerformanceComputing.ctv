@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2014-09-19</version>
+   <version>2014-09-23</version>
 
   <info>
     <p>
@@ -121,12 +121,6 @@
       <li>The <pkg>bigrf</pkg> package provides a Random Forests
         implementation with support for parellel execution and large
         memory. 
-      </li>
-      <li> <pkg>h2o</pkg> provides an interface for R to the 
-        <a href="https://github.com/0xdata/h2o">H20</a> 
-        backend which implements several R algorithms such as GLMs, Gradient
-        Boosted Machines, Random Forests, PCA, and KMeans in a distributed
-        parallel computing environment.
       </li>
     </ul>
 
@@ -548,7 +542,6 @@
     <pkg>gcbd</pkg>
     <pkg>Geneland</pkg>
     <pkg>gputools</pkg>
-    <pkg>h2o</pkg>
     <pkg>HadoopStreaming</pkg>
     <pkg>harvestr</pkg>
     <pkg>HiPLARM</pkg>
