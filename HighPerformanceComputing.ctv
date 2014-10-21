@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2014-09-23</version>
+   <version>2014-10-20</version>
 
   <info>
     <p>
@@ -212,7 +212,7 @@
         as those created by Mappers in a MapReduce application.
       </li>
       <li>
-        The <pkg>toaster</pkg> package by Teradaya provides a set of tools to perform
+        The <pkg>toaster</pkg> package by Teradata provides a set of tools to perform
         in-database analytics with the Teradata Aster platform (which is required).
       </li>
     </ul>	     
