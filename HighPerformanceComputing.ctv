@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2014-10-20</version>
+   <version>2014-11-18</version>
 
   <info>
     <p>
@@ -361,7 +361,8 @@
       <li>
         Nowadays, many packages can use the facilities offered by
         the <strong>parallel</strong> package. One example 
-        is <pkg>pls</pkg>
+        is <pkg>pls</pkg>, another is <pkg>PGICA</pkg> which can run ICA
+        analysis in parallel on SGE or multicore platforms.
       </li>
     </ul>
 
@@ -505,9 +506,13 @@
 	the <code>Rprof</code> interface for profiling.
       </li>
       <li>The <pkg>proftools</pkg> package by Tierney, and the
-      <pkg>aprof</pkg> package by Visser, can also be used to analyse
-      profiling output. 
+        <pkg>aprof</pkg> package by Visser, can also be used to analyse
+        profiling output. 
       </li>
+      <li> The <pkg>GUIProfile</pkg> package visualizes the results of
+        profiling R programs.
+      </li>
+
     </ul>
 
   </info>
@@ -542,6 +547,7 @@
     <pkg>gcbd</pkg>
     <pkg>Geneland</pkg>
     <pkg>gputools</pkg>
+    <pkg>GUIProfiler</pkg>
     <pkg>HadoopStreaming</pkg>
     <pkg>harvestr</pkg>
     <pkg>HiPLARM</pkg>
@@ -565,6 +571,7 @@
     <pkg>pbdSLAP</pkg>
     <pkg>peperr</pkg>
     <pkg>permGPU</pkg>
+    <pkg>PGICA</pkg>
     <pkg>pls</pkg>
     <pkg>pmclust</pkg>
     <pkg>profr</pkg>
