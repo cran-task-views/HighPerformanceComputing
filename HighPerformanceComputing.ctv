@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2014-12-05</version>
+   <version>2014-12-17</version>
 
   <info>
     <p>
@@ -469,6 +469,12 @@
          column-oriented, open source database system as a
 	 backend. 
       </li>
+      <li>The <pkg>gdsfmt</pkg> package implements large- and
+        out-of-memory access to CoreArray Genomic Data Structure (GDS)
+        data files, which are portable across platforms and include
+        hierarchical structure to store multiple scalable array-oriented
+        data sets with metadata information.
+      </li>
       <li>The <pkg>ffbase</pkg> package by de Jonge et al adds basic
         statistical functionality to the <pkg>ff</pkg> package.
       </li>
@@ -547,6 +553,7 @@
     <pkg>foreach</pkg>
     <pkg>GAMBoost</pkg>
     <pkg>gcbd</pkg>
+    <pkg>gdsfmt</pkg>
     <pkg>Geneland</pkg>
     <pkg>gputools</pkg>
     <pkg>GUIProfiler</pkg>
