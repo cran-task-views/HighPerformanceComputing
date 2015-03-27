@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2015-03-03</version>
+   <version>2015-03-27</version>
 
   <info>
     <p>
@@ -221,7 +221,7 @@
     </p>
     <ul>	     
       <li>Random-number generators for parallel computing are available via
-        the <pkg>rsprng</pkg> package by Li, and the <pkg>rlecuyer</pkg>
+        the <pkg>rlecuyer</pkg>
         package by Sevcikova and Rossini.
       </li>
 
@@ -581,7 +581,6 @@
     <pkg>RProtoBuf</pkg>
     <pkg>rpud</pkg>
     <pkg>rredis</pkg>
-    <pkg>rsprng</pkg>
     <pkg priority="core">snow</pkg>
     <pkg>snowfall</pkg>
     <pkg>snowFT</pkg>
