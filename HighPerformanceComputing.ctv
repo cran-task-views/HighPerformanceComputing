@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2015-03-27</version>
+   <version>2015-06-03</version>
 
   <info>
     <p>
@@ -391,10 +391,6 @@
         analysis by using the GPU.
       </li>
       <li>
-	The <pkg>magma</pkg> package provides an interface to the hybrid
-	GPU/CPU library Magma (see below for link).
-      </li>
-      <li>
 	The <pkg>gcbd</pkg> package implements a benchmarking framework for
 	BLAS and GPUs (using <pkg>gputools</pkg>).
       </li>
@@ -562,7 +558,6 @@
     <pkg>inline</pkg>
     <pkg>latentnet</pkg>
     <pkg>lga</pkg>
-    <pkg>magma</pkg>
     <pkg>Matching</pkg>
     <pkg>MonetDB.R</pkg>
     <pkg>nws</pkg>
