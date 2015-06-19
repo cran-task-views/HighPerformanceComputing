@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2015-06-18</version>
+   <version>2015-06-19</version>
 
   <info>
     <p>
@@ -111,9 +111,6 @@
       <li>The <pkg>snowfall</pkg> package by Knaus provides a more recent
 	alternative to <pkg>snow</pkg>. Functions can be used in sequential or
 	parallel mode.
-      </li>
-     <li>The <pkg>biopara</pkg> package by Lazar and Schoenfeld offers socket-based parallel
-        execution with some support for load-balancing and fault-tolerance.
       </li>
       <li>The <pkg>foreach</pkg> package allows general iteration over
 	elements in a collection without the use of an explicit loop
@@ -536,7 +533,6 @@
     <pkg>biglm</pkg>
     <pkg>bigmemory</pkg>
     <pkg>bigrf</pkg>
-    <pkg>biopara</pkg>
     <pkg>bnlearn</pkg>
     <pkg>caret</pkg>
     <pkg>cudaBayesreg</pkg>
