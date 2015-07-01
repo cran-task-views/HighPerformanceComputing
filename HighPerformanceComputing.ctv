@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2015-06-19</version>
+   <version>2015-07-01</version>
 
   <info>
     <p>
@@ -211,12 +211,6 @@
         be used in R code to read data streams from other systems in a
         distributed MapReduce setting where data is serialized and
         passed back and forth between tasks.
-      </li>
-      <li>
-        The <pkg>HistogramTools</pkg> package provides a number of
-        routines useful for the construction, aggregation,
-        manipulation, and plotting of large numbers of Histograms such
-        as those created by Mappers in a MapReduce application.
       </li>
     </ul>	     
 
@@ -555,7 +549,6 @@
     <pkg>HadoopStreaming</pkg>
     <pkg>harvestr</pkg>
     <pkg>HiPLARM</pkg>
-    <pkg>HistogramTools</pkg>
     <pkg>inline</pkg>
     <pkg>latentnet</pkg>
     <pkg>lga</pkg>
