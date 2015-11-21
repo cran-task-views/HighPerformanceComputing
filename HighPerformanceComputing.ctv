@@ -411,11 +411,6 @@
 	GPU programming.
       </li>
       <li>
-        The <pkg>WideLM</pkg> package use CUDA (4.1 or greater) to fit
-        many 'skinny' regression models simultaneously from a single
-        data set.
-      </li>
-      <li>
         The <pkg>HiPLARM</pkg> package provide High-Performance Linear
         Algebra for R using multi-core and/or GPU support using the
         PLASMA / MAGMA libraries from UTK, CUDA, and accelerated BLAS.
@@ -601,7 +596,6 @@
     <pkg>tm</pkg>
     <pkg>toaster</pkg>
     <pkg>varSelRF</pkg>
-    <pkg>WideLM</pkg>
   </packagelist>
 
   <links>
