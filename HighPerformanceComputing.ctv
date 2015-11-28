@@ -194,9 +194,10 @@
     </p>
     <ul>	     
       <li>
-	The RHIPE package, started by Saptarshi Guha and now developed by a core team via GitHub,   
+	The RHIPE package, started by Saptarshi Guha and now developed by a core team via
+	<a href="https://github.com/saptarshiguha/RHIPE/">GitHub</a>,   
         provides an interface between R and Hadoop for analysis of large complex data wholly from 
-	within R using the Divide and Recombine approach to big data. (<a href="http://www.datadr.org">link</a>)
+	within R using the Divide and Recombine approach to big data.
       </li>
       <li>
 	The rmr package by Revolution Analytics also provides an interface between R and Hadoop
@@ -622,7 +623,7 @@
     <a href="http://thirteen-01.stat.iastate.edu/snoweye/hpsc/">High Performance Statistical Computing for Data Intensive Research</a>
     <a href="http://heather.cs.ucdavis.edu/~matloff/rth.html">Rth: Parallel R through Thrust</a>
     <a href="http://r-pbd.org">Programming with Big Data in R</a>
-    <a href="http://www.datadr.org">RHIPE</a>
+    <a href="https://github.com/saptarshiguha/RHIPE/">RHIPE</a>
     <!-- <a href="http://www.bayesian-inference.com/software">LaplacesDemon</a> -->
     <a href="https://github.com/eddelbuettel/ctv-hpc">GitHub repository for this Task View</a>
   </links>
