@@ -623,7 +623,7 @@
     <a href="http://heather.cs.ucdavis.edu/~matloff/rth.html">Rth: Parallel R through Thrust</a>
     <a href="http://r-pbd.org">Programming with Big Data in R</a>
     <a href="http://www.datadr.org">RHIPE</a>
-    <a href="http://www.bayesian-inference.com/software">LaplacesDemon</a>
+    <!-- <a href="http://www.bayesian-inference.com/software">LaplacesDemon</a> -->
     <a href="https://github.com/eddelbuettel/ctv-hpc">GitHub repository for this Task View</a>
   </links>
 
