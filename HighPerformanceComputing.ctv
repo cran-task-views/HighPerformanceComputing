@@ -253,7 +253,7 @@
         Job-scheduling toolkits permit management of
 	parallel computing resources and tasks.  The slurm (Simple Linux
         Utility for Resource Management) set of programs  works well with
-        MPI. (<a href="https://slurm.schedmd.com/">link</a>)
+        MPI. (<a href="http://slurm.schedmd.com/">link</a>)
       </li>
       <li>
         The Condor toolkit (<a href="http://www.cs.wisc.edu/condor/">link</a>) from 
@@ -611,7 +611,7 @@
     <bioc>puma</bioc>
     <gcode>romp</gcode>
     <gcode>bugsparallel</gcode>
-    <a href="https://slurm.schedmd.com/">Slurm open-source workload manager</a>
+    <a href="http://slurm.schedmd.com/">Slurm open-source workload manager</a>
     <a href="http://www.cs.wisc.edu/condor/">Condor project at University of Wisconsin-Madison</a>
     <a href="http://www.imbi.uni-freiburg.de/parallel/">Parallel Computing in R with sfCluster/snowfall</a>
     <a href="http://en.wikipedia.org/wiki/Message_Passing_Interface">Wikipedia: Message Passing Interface (MPI)</a>
