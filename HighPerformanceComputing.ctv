@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2015-11-21</version>
+   <version>2015-12-03</version>
 
   <info>
     <p>
@@ -133,6 +133,10 @@
         promotes efficient use of multicore hardware in restaging data and in 
         determining splitting criteria, both of which are performance 
         bottlenecks in the algorithm.
+      </li>
+      <li>The <pkg>h2o</pkg> package connects to the h2o open source machine
+        learning environment which has scalable implementations of random
+        forests, GBM, GLM (with elastic net regularization), and deep learning.
       </li>
 
     </ul>
@@ -549,6 +553,7 @@
     <pkg>gmatrix</pkg>
     <pkg>gputools</pkg>
     <pkg>GUIProfiler</pkg>
+    <pkg>h2o</pkg>
     <pkg>HadoopStreaming</pkg>
     <pkg>harvestr</pkg>
     <pkg>HiPLARM</pkg>
