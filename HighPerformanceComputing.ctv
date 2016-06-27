@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2016-06-28</version>
+   <version>2016-06-27</version>
 
   <info>
     <p>
@@ -615,6 +615,7 @@
     <pkg>randomForestSRC</pkg>    
     <pkg>Rborist</pkg>
     <pkg>Rcpp</pkg>
+    <pkg>RcppParallel</pkg>
     <pkg>Rdsm</pkg>
     <pkg>rgenoud</pkg>
     <pkg>Rhpc</pkg>
