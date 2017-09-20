@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2017-08-29</version>
+   <version>2017-09-20</version>
 
   <info>
     <p>
@@ -423,6 +423,11 @@
         The <pkg>pbapply</pkg> package offers a progress bar for vectorized R
         functions in the `*apply` family, and supports several backends.
       </li>
+      <li>
+        The <pkg>Sim.DiffProc</pkg> package simulates and estimates
+        multidimensional Itô and Stratonovich stochastic differential
+        equations in parallel.
+      </li>
         
     </ul>
 
@@ -660,6 +665,7 @@
     <pkg priority="core">Rmpi</pkg>
     <pkg>RProtoBuf</pkg>
     <pkg>rredis</pkg>
+    <pkg>Sim.DiffProc</pkg>
     <pkg>rslurm</pkg>
     <pkg priority="core">snow</pkg>
     <pkg>snowfall</pkg>
