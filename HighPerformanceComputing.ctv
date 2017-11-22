@@ -314,11 +314,6 @@
         lists (including dependencies) to the computing cluster via simple data.frames
         as inputs. It supports LSF, SGE, Torque and SLURM.
       </li>
-      <li>
-        The <pkg>clustermq</pkg> package sends function calls as jobs on LSF,
-        SGE and SLURM via a single line of code without using network-mounted
-        storage. It also supports use of remote clusters via SSH.
-      </li>
     </ul>
 
     <p>
@@ -600,7 +595,6 @@
     <pkg>bigmemory</pkg>
     <pkg>bnlearn</pkg>
     <pkg>caret</pkg>
-    <pkg>clustermq</pkg>
     <pkg>cudaBayesreg</pkg>
     <pkg>data.table</pkg>
     <pkg>dclone</pkg>
