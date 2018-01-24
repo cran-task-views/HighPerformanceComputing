@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2018-01-19</version>
+   <version>2018-01-24</version>
 
   <info>
     <p>
@@ -409,8 +409,7 @@
       <li>
         Nowadays, many packages can use the facilities offered by
         the <strong>parallel</strong> package. One example 
-        is <pkg>pls</pkg>, another is <pkg>PGICA</pkg> which can run ICA
-        analysis in parallel on SGE or multicore platforms.
+        is <pkg>pls</pkg>.
       </li>
       <li>
         The <pkg>sprint</pkg> (an acronym for "Simple Parallel R INTerface")
@@ -659,7 +658,6 @@
     <pkg>pbdSLAP</pkg>
     <pkg>peperr</pkg>
     <pkg>permGPU</pkg>
-    <pkg>PGICA</pkg>
     <pkg>pls</pkg>
     <pkg>pmclust</pkg>
     <pkg>profr</pkg>
