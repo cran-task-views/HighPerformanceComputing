@@ -412,15 +412,6 @@
         is <pkg>pls</pkg>.
       </li>
       <li>
-        The <pkg>sprint</pkg> (an acronym for "Simple Parallel R INTerface")
-        package provides a parallel computing framework for R making High
-        Performance Computing (HPC) accessible to users who are not familiar
-        with parallel programming and the use of HPC architectures. It
-        contains a library of parallelised R functions for correlation,
-        partitioning around medoids, apply, permutation testing,
-        bootstrapping, random forest, rank product and hamming distance. 
-      </li>
-      <li>
         The <pkg>pbapply</pkg> package offers a progress bar for vectorized R
         functions in the `*apply` family, and supports several backends.
       </li>
@@ -684,7 +675,6 @@
     <pkg>snowfall</pkg>
     <pkg>snowFT</pkg>
     <pkg>speedglm</pkg>
-    <pkg>sprint</pkg>    
     <pkg>sqldf</pkg>
     <pkg>STAR</pkg>
     <pkg>tensorflow</pkg>
