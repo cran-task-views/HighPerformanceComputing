@@ -601,7 +601,7 @@
     <strong>Profiling tools</strong>
     </p>
     <ul>
-      <li>The <pkg>profr</pkg> and <pkg>profviz</pkg> packages can visualize output from
+      <li>The <pkg>profr</pkg> and <pkg>profvis</pkg> packages can visualize output from
 	the <code>Rprof</code> interface for profiling.
       </li>
       <li>The <pkg>proftools</pkg> package by Tierney, and the
@@ -681,7 +681,7 @@
     <pkg>pmclust</pkg>
     <pkg>profr</pkg>
     <pkg>proftools</pkg>
-    <pkg>profviz</pkg>
+    <pkg>profvis</pkg>
     <pkg>pvclust</pkg>
     <pkg>qsub</pkg>
     <pkg>randomForestSRC</pkg>    
