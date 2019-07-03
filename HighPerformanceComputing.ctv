@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2019-06-14</version>
+   <version>2019-07-03</version>
 
   <info>
     <p>
@@ -435,10 +435,6 @@
         network architectures.
       </li>
       <li>
-        The <pkg>RxODE</pkg> uses OpenMP and the soda library to solve ODE
-        systems in parallel. 
-      </li>
-      <li>
         The <pkg>mvnfast</pkg> uses the sumo random number generator to
         generate multivariate and normal distribtuions in parallel.
       </li>
@@ -701,7 +697,6 @@
     <pkg>rredis</pkg>
     <pkg>rslurm</pkg>
     <pkg>rstream</pkg>
-    <pkg>RxODE</pkg>
     <pkg>Sim.DiffProc</pkg>
     <pkg>sitmo</pkg>
     <pkg priority="core">snow</pkg>
