@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2019-11-13</version>
+   <version>2019-12-20</version>
 
   <info>
     <p>
@@ -408,11 +408,6 @@
 	OpenBUGS; parallel computing is supported via the <pkg>snow</pkg>
 	package.
       </li>
-      <li>The <pkg>pmclust</pkg> package utilizes unsupervised model-based
-        clustering for high dimensional (ultra) large data. The package uses
-	<pkg>pbdMPI</pkg> to perform a parallel version of the EM algorithm for
-	finite mixture Gaussian models.
-      </li>
       <li>
         Nowadays, many packages can use the facilities offered by
         the <strong>parallel</strong> package. One example 
@@ -683,7 +678,6 @@
     <pkg>peperr</pkg>
     <pkg>permGPU</pkg>
     <pkg>pls</pkg>
-    <pkg>pmclust</pkg>
     <pkg>profr</pkg>
     <pkg>proftools</pkg>
     <pkg>profvis</pkg>
