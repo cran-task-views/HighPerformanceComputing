@@ -99,8 +99,6 @@
         The <pkg>pbdNCDF4</pkg> package permits
 	multiple processes to write to the same file (without manual
 	synchronization) and supports terabyte-sized files.
-	The <pkg>pbdDEMO</pkg> package provides examples for these
-	packages, and a detailed vignette.
         The <pkg>pbdPROF</pkg> package profiles MPI communication SPMD code
         via MPI profiling libraries, such as fpmpi, mpiP, or TAU.
       </li>
@@ -665,7 +663,6 @@
     <pkg>parSim</pkg>
     <pkg>partDSA</pkg>
     <pkg>pbapply</pkg>    
-    <pkg>pbdDEMO</pkg>
     <pkg>pbdPROF</pkg>
     <pkg>pbdMPI</pkg>
     <pkg>pbdNCDF4</pkg>
