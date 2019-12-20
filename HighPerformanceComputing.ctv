@@ -96,10 +96,7 @@
 	The <pkg>pbdSLAP</pkg> builds on this and uses scalable linear algebra 
 	packages (namely BLACS, PBLAS, and ScaLAPACK) in double precision based 
 	on ScaLAPACK version 2.0.2. 
-	The <pkg>pbdBASE</pkg> builds on these and provides the core classes
-        and methods for distributed data types upon which the 
-	<pkg>pbdDMAT</pkg> builds to provide distributed dense matrices for "Programming 
-	with Big Data". The <pkg>pbdNCDF4</pkg> package permits
+        The <pkg>pbdNCDF4</pkg> package permits
 	multiple processes to write to the same file (without manual
 	synchronization) and supports terabyte-sized files.
 	The <pkg>pbdDEMO</pkg> package provides examples for these
@@ -668,9 +665,7 @@
     <pkg>parSim</pkg>
     <pkg>partDSA</pkg>
     <pkg>pbapply</pkg>    
-    <pkg>pbdBASE</pkg>
     <pkg>pbdDEMO</pkg>
-    <pkg>pbdDMAT</pkg>
     <pkg>pbdPROF</pkg>
     <pkg>pbdMPI</pkg>
     <pkg>pbdNCDF4</pkg>
