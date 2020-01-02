@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2019-12-20</version>
+   <version>2020-02-02</version>
 
   <info>
     <p>
@@ -366,7 +366,6 @@
 	structure learning,
 	the <pkg>latentnet</pkg> package by Krivitsky and Handcock for latent
 	position and cluster models,
-	the <pkg>lga</pkg> package by Harrington for linear grouping analysis,
 	the <pkg>peperr</pkg> package by Porzelius and Binder for parallelised
 	estimation of prediction error,
 	the <pkg>orloca</pkg> package by Fernandez-Palacin and Munoz-Marquez
@@ -653,7 +652,6 @@
     <pkg>keras</pkg>
     <pkg>LaF</pkg>
     <pkg>latentnet</pkg>
-    <pkg>lga</pkg>
     <pkg>Matching</pkg>
     <pkg>MonetDB.R</pkg>
     <pkg>mvnfast</pkg>
