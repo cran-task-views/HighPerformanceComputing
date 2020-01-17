@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2020-02-02</version>
+   <version>2020-02-17</version>
 
   <info>
     <p>
@@ -542,10 +542,6 @@
         matrices via memory-mapped access, and offeres several matrix
         operationc, PCA, sparse methods and more..
       </li>
-      <li>The <pkg>disk.frame</pkg> package permits efficient (serial or
-        parallel) operations on larger-than-memory data.frame objects with full
-        data.frame features.
-      </li>
     </ul>
 
     <p>
@@ -625,7 +621,6 @@
     <pkg>caret</pkg>
     <pkg>clustermq</pkg>
     <pkg>data.table</pkg>
-    <pkg>disk.frame</pkg>
     <pkg>dclone</pkg>
     <pkg>doFuture</pkg>
     <pkg>doMC</pkg>
