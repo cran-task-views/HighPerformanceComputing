@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2020-02-10</version>
+   <version>2020-02-24</version>
 
   <info>
     <p>
@@ -524,11 +524,6 @@
 	available; it works in the presence of factors and can check for
 	singular matrices.
       </li>
-      <li>
-	The <pkg>biglars</pkg> package by Seligman et al can use the <pkg>ff</pkg>
-	to support large-than-memory datasets for least-angle regression,
-	lasso and stepwise regression.
-      </li>
       <li>The <pkg>MonetDB.R</pkg> package allows R to access the MonetDB 
          column-oriented, open source database system as a
 	 backend. 
@@ -614,7 +609,6 @@
     <pkg>batchtools</pkg>
     <pkg>bcp</pkg>
     <pkg>BDgraph</pkg>
-    <pkg>biglars</pkg>
     <pkg>biglm</pkg>
     <pkg>bigmemory</pkg>
     <pkg>bigstatsr</pkg>
