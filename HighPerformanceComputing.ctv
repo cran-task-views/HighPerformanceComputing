@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2020-06-03</version>
+   <version>2020-08-10</version>
 
   <info>
     <p>
@@ -32,8 +32,8 @@
       Enea, Ivo Welch, Jay Emerson, Wei-Chen Chen, Bill Cleveland, 
       Ross Boylan, Ramon Diaz-Uriarte, Mark Zeligman, Kevin Ushey, Graham
       Jeffries, Will Landau, Tim Flutre, Reza Mohammadi, Ralf Stubner,
-      Bob Jansen, Matt Fidler, and Brent Brewington (as well as others I may
-      have forgotten to add here) are gratefully acknowledged.  
+      Bob Jansen, Matt Fidler, Brent Brewington and Ben Bolder (as well as 
+      others I may have forgotten to add here) are gratefully acknowledged.  
     </p>
     <p> 
       Contributions are always welcome, and encouraged. Since the start of
@@ -533,6 +533,10 @@
         matrices via memory-mapped access, and offeres several matrix
         operationc, PCA, sparse methods and more..
       </li>
+      <li>The <pkg>disk.frame</pkg> package leverages several other packages to
+      provide efficient access and manipulation operations for data sets that
+      are larger than RAM.
+      </li>
     </ul>
 
     <p>
@@ -612,6 +616,7 @@
     <pkg>clustermq</pkg>
     <pkg>data.table</pkg>
     <pkg>dclone</pkg>
+    <pkg>disk.frame</pkg>
     <pkg>doFuture</pkg>
     <pkg>doMC</pkg>
     <pkg>doMPI</pkg>
