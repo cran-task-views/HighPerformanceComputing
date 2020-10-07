@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2020-10-04</version>
+   <version>2020-10-07</version>
 
   <info>
     <p>
@@ -97,7 +97,9 @@
 	packages (namely BLACS, PBLAS, and ScaLAPACK) in double precision based 
 	on ScaLAPACK version 2.0.2. 
 	The <pkg>pbdBASE</pkg> builds on these and provides the core classes
-        and methods for distributed data types.
+        and methods for distributed data types. The <pkg>pbdNCDF4</pkg> package permits
+	multiple processes to write to the same file (without manual
+	synchronization) and supports terabyte-sized files.
         The <pkg>pbdPROF</pkg> package profiles MPI communication SPMD code
         via MPI profiling libraries, such as fpmpi, mpiP, or TAU.
       </li>
@@ -200,6 +202,13 @@
         <a href="https://www.gnu.org/software/make">Makefiles</a>. Drake uses code analysis
         to configure the user's workflow and make the parallelism implicit.
       </li>
+      <li>
+        The <pkg>flexiblas</pkg> package manages BLAS/LAPACK libraries by
+        loading and possibly switching them if FlexiBLAS (<a
+        href="https://www.mpi-magdeburg.mpg.de/projects/flexiblas">link</a>)
+        is used.
+      </li>
+      
     </ul>
 
     <p>
@@ -625,6 +634,7 @@
     <pkg>drake</pkg>
     <pkg>ff</pkg>
     <pkg>ffbase</pkg>
+    <pkg>flexiblas</pkg>
     <pkg>flowr</pkg>
     <pkg>foreach</pkg>
     <pkg>future</pkg>
@@ -651,6 +661,7 @@
     <pkg>pbdBASE</pkg>
     <pkg>pbdPROF</pkg>
     <pkg>pbdMPI</pkg>
+    <pkg>pbdNCDF4</pkg>
     <pkg>pbdSLAP</pkg>
     <pkg>peperr</pkg>
     <pkg>permGPU</pkg>
