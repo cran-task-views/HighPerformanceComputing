@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2020-10-08</version>
+   <version>2020-10-09</version>
 
   <info>
     <p>
@@ -97,9 +97,7 @@
 	packages (namely BLACS, PBLAS, and ScaLAPACK) in double precision based 
 	on ScaLAPACK version 2.0.2. 
 	The <pkg>pbdBASE</pkg> builds on these and provides the core classes
-        and methods for distributed data types. The <pkg>pbdNCDF4</pkg> package permits
-	multiple processes to write to the same file (without manual
-	synchronization) and supports terabyte-sized files.
+        and methods for distributed data types.
         The <pkg>pbdPROF</pkg> package profiles MPI communication SPMD code
         via MPI profiling libraries, such as fpmpi, mpiP, or TAU.
       </li>
@@ -657,7 +655,6 @@
     <pkg>pbdBASE</pkg>
     <pkg>pbdPROF</pkg>
     <pkg>pbdMPI</pkg>
-    <pkg>pbdNCDF4</pkg>
     <pkg>pbdSLAP</pkg>
     <pkg>peperr</pkg>
     <pkg>permGPU</pkg>
