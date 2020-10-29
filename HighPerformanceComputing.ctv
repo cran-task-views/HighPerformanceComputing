@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2020-10-09</version>
+   <version>2020-10-29</version>
 
   <info>
     <p>
@@ -363,9 +363,7 @@
 	resampling-based testing of multiple hypothesis.
       </li>
       <li>
-	The <pkg>GAMBoost</pkg> package by Binder for <code>glm</code>
-	and <code>gam</code> model fitting via boosting using b-splines,
-	the <pkg>Matching</pkg> package by Sekhon for multivariate and propensity
+	The <pkg>Matching</pkg> package by Sekhon for multivariate and propensity
 	score matching,
 	the <pkg>STAR</pkg> package by Pouzat for spike train analysis,
 	the <pkg>bnlearn</pkg> package by Scutari for bayesian network
@@ -633,7 +631,6 @@
     <pkg>foreach</pkg>
     <pkg>future</pkg>
     <pkg>future.BatchJobs</pkg>
-    <pkg>GAMBoost</pkg>
     <pkg>gcbd</pkg>
     <pkg>GUIProfiler</pkg>
     <pkg>h2o</pkg>
