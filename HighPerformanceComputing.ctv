@@ -4,7 +4,7 @@
    <name>HighPerformanceComputing</name>
    <topic>High-Performance and Parallel Computing with R</topic>
    <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-   <version>2020-10-29</version>
+   <version>2021-01-10</version>
 
   <info>
     <p>
@@ -123,8 +123,7 @@
 	the <pkg>doMC</pkg> (using parallel/multicore on single
 	workstations), <pkg>doSNOW</pkg> (using <pkg>snow</pkg>, see
 	above), <pkg>doMPI</pkg> (using <pkg>Rmpi</pkg>) packages,
-        <pkg>doFuture</pkg> (using <pkg>future</pkg> or
-        <pkg>future.BatchJobs</pkg>), and
+        <pkg>doFuture</pkg> (using <pkg>future</pkg>), and
 	<pkg>doRedis</pkg> (using <pkg>rredis</pkg>) packages.
       </li>
       <li>The <pkg>future</pkg> package allows for synchronous (sequential)
@@ -630,7 +629,6 @@
     <pkg>flowr</pkg>
     <pkg>foreach</pkg>
     <pkg>future</pkg>
-    <pkg>future.BatchJobs</pkg>
     <pkg>gcbd</pkg>
     <pkg>GUIProfiler</pkg>
     <pkg>h2o</pkg>
