@@ -431,11 +431,6 @@
 	GPU programming.
       </li>
       <li>
-        The <pkg>permGPU</pkg> package computes permutation resampling
-        inference in the context of RNA microarray studies on the GPU,
-        it uses CUDA (>= 4.5)
-      </li>
-      <li>
         The <pkg>tensorflow</pkg> package by by Allaire et
         al. provides access to the complete TensorFlow API from within
         R that enables numerical computation using data flow
@@ -626,7 +621,6 @@
     <pkg>pbapply</pkg>    
     <pkg>pbdMPI</pkg>
     <pkg>peperr</pkg>
-    <pkg>permGPU</pkg>
     <pkg>pls</pkg>
     <pkg>proffer</pkg>
     <pkg>profile</pkg>
