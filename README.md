@@ -1,8 +1,8 @@
 ## CRAN Task View: High-Performance and Parallel Computing with R
 
-**URL:** <https://CRAN.R-project.org/view=HighPerormanceComputing>
+**URL:** <https://CRAN.R-project.org/view=HighPerformanceComputing>
 
-**Source file:** [HighPerormanceComputing.md](HighPerormanceComputing.md)
+**Source file:** [HighPerformanceComputing.md](HighPerformanceComputing.md)
 
 **Contributions:** Suggestions and improvements for this task view are very
 welcome and can be made through issues or pull requests here on GitHub or
