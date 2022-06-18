@@ -65,10 +65,8 @@ for later R releases.
     `r pkg("snow")`.
 -   The `r pkg("snowfall")` package by Knaus provides a more recent alternative to
     `r pkg("snow")`. Functions can be used in sequential or parallel mode.
--   The `r pkg("parallelly", priority = "core")` package enhances the **parallel** package. It 
-    gives additional control on how to launch parallel workers and can set up remote workers over
-    SSH using reverse tunneling, avoiding the need to reconfigure firewalls. It is designed to respect
-    CPU resources allotted by Linux containers, control groups (cgroups), and HPC schedulers.
+-   The `r pkg("parallelly")` package enhances the parallel package by giving additional control 
+    over launch and set-up of parallel workers.
 -   The `r pkg("foreach")` package allows general iteration over elements in a collection without
     the use of an explicit loop counter. Using foreach without side effects also facilitates
     executing the loop in parallel which is possible via the `r pkg("doMC")` (using
