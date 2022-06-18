@@ -77,6 +77,11 @@ for later R releases.
     evaluations via abstraction of futures, either via function calls or implicitly via promises.
     Global variables are automatically identified. Iteration over elements in a collection is
     supported.
+    Parallel map-reduce calls via the **future** framework are provided by packages
+    `r pkg("future.apply")` (parallel versions of base-R apply functions),
+    `r pkg("furrr")` (parallel versions of `r pkg("purrr")` functions),
+    `r pkg("foreach")` with `r pkg("doFuture")`, and
+    `r pkg("plyr")` with `r pkg("doFuture")`.
 -   The `r pkg("Rborist")` package employs OpenMP pragmas to exploit predictor-level parallelism in
     the Random Forest algorithm which promotes efficient use of multicore hardware in restaging data
     and in determining splitting criteria, both of which are performance bottlenecks in the
