@@ -95,6 +95,7 @@ for later R releases.
 -   The `r pkg("mirai")` package is a minimalist framework for local or distributed asynchronous
     code evaluation, implementing futures which automatically resolve upon completion, built on the
     high-performance `r pkg("nanonext")` NNG C library binding.
+
 ### Parallel computing: Implicit parallelism
 
 -   The pnmath package by Tierney ( [link](http://www.stat.uiowa.edu/~luke/R/experimental/) ) uses
