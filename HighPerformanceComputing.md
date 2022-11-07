@@ -94,7 +94,7 @@ for later R releases.
 -   The `r pkg("qsub")` package can submit commands to run on gridengine clusters.
 -   The `r pkg("mirai")` package is a minimalist framework for local or distributed asynchronous
     code evaluation, implementing futures which automatically resolve upon completion, built on the
-    high-performance `r pkg("nanonext")` NNG C library binding.
+    high-performance `r pkg("nanonext")` NNG C messaging library binding.
 
 ### Parallel computing: Implicit parallelism
 
