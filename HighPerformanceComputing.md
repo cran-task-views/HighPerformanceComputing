@@ -79,10 +79,6 @@ for later R releases.
     supported. Parallel map-reduce calls via the future framework are provided by packages
     `r pkg("future.apply")` for parallel versions of base-R apply functions, and
     `r pkg("furrr")` for parallel versions of purrr fuctions.
--   The `r pkg("mirai")` package is a minimalist, highly-scalable framework for asynchronous
-    evaluation, allowing concurrent code execution locally or across the network, implementing
-    futures which automatically resolve upon completion. Uses the lightweight NNG C library as
-    backend through the high-performance `r pkg("nanonext")` binding.
 -   The `r pkg("Rborist")` package employs OpenMP pragmas to exploit predictor-level parallelism in
     the Random Forest algorithm which promotes efficient use of multicore hardware in restaging data
     and in determining splitting criteria, both of which are performance bottlenecks in the
@@ -96,7 +92,9 @@ for later R releases.
 -   The `r pkg("parSim")` package can perform simulation studies using one or multiple cores, both
     locally and on HPC clusters.
 -   The `r pkg("qsub")` package can submit commands to run on gridengine clusters.
-
+-   The `r pkg("mirai")` package is a minimalist framework for local or distributed asynchronous
+    code evaluation, implementing futures which automatically resolve upon completion, built on the
+    high-performance `r pkg("nanonext")` NNG C library binding.
 ### Parallel computing: Implicit parallelism
 
 -   The pnmath package by Tierney ( [link](http://www.stat.uiowa.edu/~luke/R/experimental/) ) uses
