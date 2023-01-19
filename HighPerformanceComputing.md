@@ -229,11 +229,12 @@ for later R releases.
     recurrent networks, any combination of both, and custom neural network architectures.
 -   The `r pkg("mvnfast")` uses the sumo random number generator to generate multivariate and normal
     distribtuions in parallel.
+-   The `r pkg("rxode2random")` uses the `r pkg("sitmo")` package to generate either truncated or non-truncated 
+    multivariate normal distributions as well as many other common distributions (like binomial, t-distribution etc) 
+    in parallel.  
 -   The `r pkg("rxode2")` uses parallel processing (via `OpenMP`) for faster solving of ordinary differential 
-    equations (ODEs) over multiple units (grouped by `ID`).  These parallel ODE simulations can also use the 
-    sitmo random number for multiple types of random numbers for each observation and id (like `rxnorm()`, `rinorm()`,  
-    `rxbinom()` etc).  The random number generation in `rxode2` is from the support package `r pkg("rxode2random")`, which can be 
-    used independently from `rxode2` and generate truncated multivariate normal distrubutions in parallel.
+    equations (ODEs) over multiple units (grouped by `ID`) and can generate random numbers for each ODE simulation (done
+    automatically with the support package `r pkg("rxode2random")`).
 -   The `r pkg("nlmixr2")` uses parallel ODE solving from `rxode2` to solve nonlinear mixed effects models
     in parallel (for the algorithm `"saem"`).
 
