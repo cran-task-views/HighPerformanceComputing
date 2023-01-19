@@ -230,10 +230,10 @@ for later R releases.
 -   The `r pkg("mvnfast")` uses the sumo random number generator to generate multivariate and normal
     distribtuions in parallel.
 -   The `r pkg("rxode2random")` uses the `r pkg("sitmo")` package to generate either truncated or non-truncated 
-    multivariate normal distributions as well as many other common distributions (like binomial, t-distribution etc) 
-    in parallel.  
+    multivariate normal distributions in parallel. The pacakge also generates many other common distributions in parallel (like 
+    binomial, t-distribution etc).  
 -   The `r pkg("rxode2")` uses parallel processing (via `OpenMP`) for faster solving of ordinary differential 
-    equations (ODEs) over multiple units (grouped by `ID`) and can generate random numbers for each ODE simulation (done
+    equations (ODEs) over multiple units (grouped by `ID`) and can generate random numbers for each ODE simulation problem (done
     automatically with the support package `r pkg("rxode2random")`).
 -   The `r pkg("nlmixr2")` uses parallel ODE solving from `rxode2` to solve nonlinear mixed effects models
     in parallel (for the algorithm `"saem"`).
