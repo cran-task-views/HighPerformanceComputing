@@ -3,7 +3,7 @@ name: HighPerformanceComputing
 topic: High-Performance and Parallel Computing with R
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2023-04-29
+version: 2023-06-27
 source: https://github.com/cran-task-views/HighPerformanceComputing/
 ---
 
@@ -96,7 +96,9 @@ for later R releases.
 -   The `r pkg("qsub")` package can submit commands to run on gridengine clusters.
 -   The `r pkg("mirai")` package is a minimalist framework for local or distributed asynchronous
     code evaluation, implementing futures which automatically resolve upon completion, built on the
-    high-performance `r pkg("nanonext")` NNG C messaging library binding.
+    high-performance `r pkg("nanonext")` NNG C messaging library binding. The `r pkg("crew")`
+    package extends `r pkg("mirai")` with auto-scaling, a central manager, and plugin system for
+    diverse platforms and services.
 -   The `r pkg("condor")` package can interact with Condor HPC installations via `ssh` to transfer
     files and access remote compute jobs.
 
