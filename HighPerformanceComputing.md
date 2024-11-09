@@ -37,7 +37,7 @@ Direct support in R started with release 2.14.0 which includes a new package **p
 incorporating (slightly revised) copies of packages multicore and `r pkg("snow", priority =
 "core")`. Some types of clusters are not handled directly by the base package 'parallel'.  However,
 and as explained in the package vignette, the parts of parallel which provide `r pkg("snow")` -like
-functions will accept `r pkg("snow")` clusters including MPI clusters. Use `vignette("parallel")` to
+functions will accept `r pkg("snow")` clusters including MPI clusters. Use `vignette("parallel", package="parallel")` to
 view the package vignette.\ The **parallel** package also contains support for multiple RNG streams
 following L'Ecuyer et al (2002), with support for both mclapply and snow clusters.\ The version
 released for R 2.14.0 contains base functionality: higher-level convenience functions are planned
