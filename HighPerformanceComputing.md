@@ -3,7 +3,7 @@ name: HighPerformanceComputing
 topic: High-Performance and Parallel Computing with R
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2025-01-15
+version: 2025-04-22
 source: https://github.com/cran-task-views/HighPerformanceComputing/
 ---
 
@@ -232,6 +232,7 @@ functions are planned for later R releases.
     models in parallel (for the algorithm `"saem"`).
 -   The `r pkg("parabar")` package implements a progress bar for parallel applications; the 
     `r pkg("doParabar")` package builds on this with a `foreach`  parallel adapter for `parabar` backends.
+-   The `r pkg("SLmetrics")` package is a C++17/Armadillo implementation of 40+ classification, regression, clustering and time‑series metrics; vectorised pointer‑level loops and optional OpenMP parallelism deliver fast, low‑memory scoring of very large prediction arrays.
 
 ### Parallel computing: GPUs
 
@@ -269,8 +270,6 @@ functions are planned for later R releases.
 -   A large number of database packages, and database-alike packages (such as `r pkg("sqldf")` by
     Grothendieck and `r pkg("data.table")` by Dowle) are also of potential interest but not reviewed
     here.
--   The `r pkg("MonetDB.R")` package allows R to access the MonetDB column-oriented, open source
-    database system as a backend.
 -   The `r pkg("LaF")` package provides methods for fast access to large ASCII files in csv or
     fixed-width format.
 -   The `r pkg("bigstatsr")` package also operates on file-backed large matrices via memory-mapped
