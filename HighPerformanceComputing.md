@@ -102,6 +102,7 @@ functions are planned for later R releases.
     diverse platforms and services.
 -   The `r pkg("condor")` package can interact with Condor HPC installations via `ssh` to transfer
     files and access remote compute jobs.
+-   The `r pkg("piecemeal")` package facilitates simulation studies made up of many small runs by managing setup, monitoring, collation, reproducibility, and fault- and error-tolerance.
 
 ### Parallel computing: Implicit parallelism
 
@@ -232,7 +233,6 @@ functions are planned for later R releases.
 -   The `r pkg("parabar")` package implements a progress bar for parallel applications; the 
     `r pkg("doParabar")` package builds on this with a `foreach`  parallel adapter for `parabar` backends.
 -   The `r pkg("SLmetrics")` package is a C++17/Armadillo implementation of 40+ classification, regression, clustering and time‑series metrics; vectorised pointer‑level loops and optional OpenMP parallelism deliver fast, low‑memory scoring of very large prediction arrays.
--   The `r pkg("piecemeal")` package sets up, runs, monitors, collates, and debugs large simulation studies comprising many small independent replications and treatment configurations. 
 
 ### Parallel computing: GPUs
 
