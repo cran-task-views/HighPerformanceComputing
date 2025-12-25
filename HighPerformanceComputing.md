@@ -3,7 +3,7 @@ name: HighPerformanceComputing
 topic: High-Performance and Parallel Computing with R
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2025-12-23
+version: 2025-12-25
 source: https://github.com/cran-task-views/HighPerformanceComputing/
 ---
 
@@ -102,7 +102,8 @@ functions are planned for later R releases.
     diverse platforms and services.
 -   The `r pkg("condor")` package can interact with Condor HPC installations via `ssh` to transfer
     files and access remote compute jobs.
--   The `r pkg("piecemeal")` package facilitates simulation studies made up of many small runs by managing setup, monitoring, collation, reproducibility, and fault- and error-tolerance.
+-   The `r pkg("piecemeal")` package sets up, runs, monitors, collates, and debugs large simulation
+    studies comprising many small independent replications and treatment configurations.
 
 ### Parallel computing: Implicit parallelism
 
