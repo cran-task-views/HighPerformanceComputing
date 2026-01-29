@@ -76,11 +76,12 @@ functions are planned for later R releases.
 -   The `r pkg("future")` package allows for concurrent evaluations via abstraction of futures, 
     either via function calls or implicitly via promises.  Global variables are automatically 
     identified.  Iteration over elements in a collection is supported.  The `r pkg("futurize")`
-    turns existing base-R, purrr, `r pkg("crossmap")`, and foreach map-reduce calls into the
-    parallel countparts provided by packages `r pkg("future.apply")`, `r pkg("furrr")` and 
-    `r pkg("doFuture")`.  Parallel execution is available through the parallel and parallelly
-    packages, `r pkg("future.callr")` via the callr package, `r pkg("future.mirai")` via the
-    mirai package, and `r pkg("future.batchtools")` via the batchtools package. 
+    turns existing base-R, `r pkg("purrr")`, `r pkg("crossmap")`, and `r pkg("foreach")` 
+    map-reduce calls into the parallel countparts provided by packages `r pkg("future.apply")`, 
+    `r pkg("furrr")` and `r pkg("doFuture")`.  Parallel execution is available through the 
+    parallel and `r pkg("parallelly")` packages, `r pkg("future.callr")` via the 
+    `r pkg ("callr")` package, `r pkg("future.mirai")` via the `r pkg("mirai")` package, and
+    `r pkg("future.batchtools")` via the `r pkg("batchtools")` package.
 -   The `r pkg("Rborist")` package employs OpenMP pragmas to exploit predictor-level parallelism in
     the Random Forest algorithm which promotes efficient use of multicore hardware in restaging data
     and in determining splitting criteria, both of which are performance bottlenecks in the
