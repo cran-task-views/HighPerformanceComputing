@@ -3,7 +3,7 @@ name: HighPerformanceComputing
 topic: High-Performance and Parallel Computing with R
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2026-02-18
+version: 2026-02-21
 source: https://github.com/cran-task-views/HighPerformanceComputing/
 ---
 
@@ -233,6 +233,9 @@ functions are planned for later R releases.
     models in parallel (for the algorithm `"saem"`).
 -   The `r pkg("parabar")` package implements a progress bar for parallel applications; the 
     `r pkg("doParabar")` package builds on this with a `foreach`  parallel adapter for `parabar` backends.
+-   The `r bioc("iscream")` package on Bioconductor provides a fast BED-file querying API to get raw data, summaries and
+    matrices from genomic regions of interest. Queries are made with [htslib](https://www.htslib.org/) and parallelized
+    across BED-files via OpenMP.
 
 ### Parallel computing: GPUs
 
