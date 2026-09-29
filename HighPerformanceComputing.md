@@ -173,11 +173,14 @@ functions are planned for later R releases.
     article](http://www.r-project.org/doc/Rnews/Rnews_2005-2.pdf) .
 -   The `r pkg("batch")` package by Hoffmann can launch parallel computing requests onto a cluster
     and gather results.
--   The `r pkg("BatchJobs")` package provides Map, Reduce and Filter variants to manage R jobs and
-    their results on batch computing systems like PBS/Torque, LSF and Sun Grid Engine.  Multicore
-    and SSH systems are also supported. The `r pkg("BatchExperiments")` package extends it with an
-    abstraction layer for running statistical experiments. Package `r pkg("batchtools")` is a
-    successor / extension to both.
+-   The `r pkg("batchtools")` package provides a parallel `Map` for high-performance computing
+    systems, plus an abstraction layer to define large-scale computer experiments (problems,
+    algorithms and replications) in a reproducible way. Jobs are defined in R, submitted via
+    user-editable template files, and their status and results are tracked in an on-disk registry.
+    Slurm is the most commonly used backend; Grid Engine, TORQUE/PBS, IBM Spectrum LSF, OpenLava
+    and Docker Swarm are also supported, as are multicore, socket and makeshift SSH clusters for 
+    local use. It supersedes `r pkg("BatchJobs")` and `r pkg("BatchExperiments")`, whose 
+    development is discontinued.
 -   The `r pkg("clustermq")` package sends function calls as jobs on LSF, SGE and SLURM via a single
     line of code without using network-mounted storage. It also supports use of remote clusters via
     SSH.
